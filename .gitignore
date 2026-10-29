@@ -1,0 +1,6 @@
+source/node_modules/
+source/portfolio-data.js
+source/assets.js
+_site/
+.DS_Store
+.env*

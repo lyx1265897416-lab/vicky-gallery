@@ -1,0 +1,1 @@
+{"name":"vicky-gallery-prototype","private":true,"type":"module","scripts":{"build":"node build.mjs"},"dependencies":{"three":"0.186.1","esbuild":"0.25.12"}}

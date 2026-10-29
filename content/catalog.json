@@ -1,0 +1,1267 @@
+{
+  "waku": [
+    {
+      "id": "everything-blooms",
+      "title": "万物生花",
+      "englishTitle": "Everything Blooms",
+      "description": "九个超现实场景里，安静的物件在触碰下开花",
+      "category": "感官与交互",
+      "cover": "content/covers/everything-blooms.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_678b6634a28e4ca39373a8cc7f7ffbf5/candidates/170b4435999f45f1ab201f6daa0421b1/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 1,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "roomlet",
+      "title": "巴掌小屋",
+      "englishTitle": "Roomlet: Decorate a Tiny Room",
+      "description": "悬在奶油色空气里的 3D 小房间，拖家具、换布料，转着看它在一天的光里变样",
+      "category": "空间与游戏",
+      "cover": "content/covers/roomlet.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_0b7cda3250e84e1c8c8550aa4b58c47a/candidates/c8856a43b92347589c320b2f014d4eb8/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 2,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "tideborn",
+      "title": "音乐互动 · 潮生体",
+      "englishTitle": "TIDEBORN",
+      "description": "触碰深海生物身上的 12 个彩色声点作曲，AI 把这段演奏发展成一首完整的歌",
+      "category": "音乐与声音",
+      "cover": "content/covers/tideborn.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_bfa16444d0c5411fb86ca3285079a100/candidates/986e56e7f9564b36bf25c099a7f53121/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 3,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "eden-exe-memory-garden",
+      "title": "Y3K 梦核审美乐园",
+      "englishTitle": "EDEN Observatory",
+      "description": "悬浮在云海蓝调时刻的 Y3K 梦核艺术空间，五个场域可 360° 环视与拍摄",
+      "category": "感官与交互",
+      "cover": "content/covers/eden-exe-memory-garden.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_1dc0cd09d221494eab00adc2ccfc75e9/candidates/9e1d7b1ecb0c41d8b4d520c11920b8a9/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 4,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "bead-press",
+      "title": "拼豆游戏",
+      "englishTitle": "Bead Press",
+      "description": "沿着亮起的格子把豆子按上钉板，铺烫纸、拖熨斗，熔成一整块像素画",
+      "category": "空间与游戏",
+      "cover": "content/covers/bead-press.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_0a6781f70a004b448c907e351b7736ae/candidates/a4f085b8f41644c6b3e350c7fafe2ff2/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 5,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "oneframe",
+      "title": "dazz 相机 · 一格",
+      "englishTitle": "ONEFRAME",
+      "description": "十六台机身，一次一格",
+      "category": "影像与角色",
+      "cover": "content/covers/selected-06.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_b0eeb682e5374284b5beefb0edb14a9c/candidates/67d9d0933ee24100808e65bc2e55bb2b/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 6,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "chrome-ritual",
+      "title": "Chrome Ritual",
+      "englishTitle": "Chrome Ritual",
+      "description": "雾蓝背景里悬浮的银色罐体与虹彩反光，让动作本身产生美感",
+      "category": "感官与交互",
+      "cover": "content/covers/chrome-ritual.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_c97d37c57c79405aa6cdb06f804a8141/candidates/c3e5eefe9b5242eaa27cae86fd34cf57/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 7,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "outfit-closet",
+      "title": "穿搭手册",
+      "englishTitle": "Wearhouse",
+      "description": "走进一个互联网大小的衣柜，每件单品真的穿在你身上",
+      "category": "影像与角色",
+      "cover": "content/covers/english-08.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_2105733f9d5744d695331b4f205f8b4e/candidates/893a745c443244698be7af8a02042ee8/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 8,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "fingerverse",
+      "title": "TD 手势交互 · 指间宇宙",
+      "englishTitle": "Fingerverse",
+      "description": "对着摄像头张开手，指尖之间拉出一扇实时滤镜与 AI 分身的窗口，点一下录像",
+      "category": "感官与交互",
+      "cover": "content/covers/english-09.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_ee60026885e44f179c7f019ccd4b03ec/candidates/fcffaafe1149404ca13632c8016b5124/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 9,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "nextjs-nights-shader",
+      "title": "粒子沙画",
+      "englishTitle": "Galaxy Current",
+      "description": "手指就是一支有边界的沙粒画笔，六组沙色与三档笔刷随时切换",
+      "category": "感官与交互",
+      "cover": "content/covers/english-10.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_a81cd31e8966431d91a97ae07e89c7b9/candidates/71c9ce9af1ba4799a61770e9392a8d32/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 10,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "everything-holds-water",
+      "title": "万物鱼缸",
+      "englishTitle": "Everything Holds Water",
+      "description": "一条金鱼从半升借来的水开始，二十种生物随栖息地升级依次入住",
+      "category": "空间与游戏",
+      "cover": "content/covers/selected-11.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_f584f617311d4953b1df5b62c4729b6c/candidates/8ab8edc5688146ae8e26b780322f7124/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 11,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "snack-claw-cabinet",
+      "title": "今天吃什么",
+      "englishTitle": "Snack Claw Cabinet",
+      "description": "一台可环视、投币操作的立体美食娃娃机；20 秒内夹到什么，今天就吃什么",
+      "category": "空间与游戏",
+      "cover": "content/covers/english-12.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_8f6b216468424007893a818691d0fb2f/candidates/f536d9ebe79747cb96ccab044ae9abb5/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 12,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "2048",
+      "title": "2048 二创",
+      "englishTitle": "2048",
+      "description": "在开源 2048 基础上的二次创作版本",
+      "category": "空间与游戏",
+      "cover": "content/covers/selected-13.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_1b749fc039734d6aae6c8816e30e352a/candidates/cae70433ca5f4957bffa2bb88692439c/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 13,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "absurd-poster-factory",
+      "title": "荒诞海报生成器",
+      "englishTitle": "Misjudged",
+      "description": "把照片交给误判局，撑过三道面无表情的提问，领一张机器认错人的认证",
+      "category": "影像与角色",
+      "cover": "content/covers/absurd-poster-factory.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_06ddc872b3fd4a608d86c3905dcad4f3/candidates/f90133e59a854e6ebfe3f7f6c08271f9/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 14,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "album-forge",
+      "title": "专辑生成器",
+      "englishTitle": "Doodle Records",
+      "description": "涂几笔发光线条，听它们变成音符、长成一首 30 秒的歌，再压成自己的首张单曲",
+      "category": "音乐与声音",
+      "cover": "content/covers/album-forge.png",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_3a512da05c8b41af9996b32a1cdb68bf/candidates/8b4eeeedd0094271b6ec01ce63ff8732/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 15,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "alt-offer",
+      "title": "平行 offer",
+      "englishTitle": "ALT//OFFER",
+      "description": "45–60 秒的平行人生体验，发给你一份来自另一条人生的 offer",
+      "category": "叙事与生活",
+      "cover": "content/covers/alt-offer.png",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_0b23df3070094aa7a0315e747edb84de/candidates/ef402086cf2c4af5b5512b8699643d30/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 16,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "animal-mirror",
+      "title": "动物转换器",
+      "englishTitle": "Inner Beast",
+      "description": "上传自拍，兽性扫描仪告诉你你其实是哪只动物，附一句面无表情的 AI 判词",
+      "category": "影像与角色",
+      "cover": "content/covers/selected-17.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_cc0e415918b747cbb17541da4209a59a/candidates/7fade85866d64187a3d004d76051efe4/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 17,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "animal-splice",
+      "title": "局部动物拼接",
+      "englishTitle": "Part Animal",
+      "description": "喂它一张照片，动物零件硬切贴满每张脸，拖动调整、重新洗牌",
+      "category": "影像与角色",
+      "cover": "content/covers/selected-18.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_19c6d2e34c154f5d9fefce341d9d9c1e/candidates/7c047c5ea56440b5abfd798d45e25213/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 18,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "back-in-place",
+      "title": "生活模拟 · 收纳师",
+      "englishTitle": "Back in Place",
+      "description": "客户房间的杂物全部飞起悬浮，一件件拖回该去的地方，清单全绿后盖章交付",
+      "category": "空间与游戏",
+      "cover": "content/covers/back-in-place.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_69a0980331b64ca09982eaa5d5e47b91/candidates/63c63cc476974210abc7723682e4c6ec/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 19,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "Baddie-Doll-玩法调研",
+      "title": "娃娃挡脸拍照",
+      "englishTitle": "Baddie Doll",
+      "description": "用芭比娃娃挡住脸拍照，娃娃的五官与接缝跟着你的脸对齐",
+      "category": "影像与角色",
+      "cover": "content/covers/Baddie-Doll-玩法调研.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_a2a64ce78cad47868d74833210d3f1f5/candidates/73e5a673695d4bf69a2ef2311fcc6ea1/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 20,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "bite-lens",
+      "title": "健康摄入",
+      "englishTitle": "BiteLens",
+      "description": "拍一张食物照片，得到可编辑的热量与三大营养素，确认后加进当天仪表盘",
+      "category": "叙事与生活",
+      "cover": "content/covers/selected-21.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_acef74d8b8d646db8b98e705ce188d85/candidates/38429a3e29864ba2a1aab4a691309388/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 21,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "book-of-answers",
+      "title": "答案之书",
+      "englishTitle": "Book of Answers",
+      "description": "心里想一个问题，在双手间聚起一颗活的星，放进摊开的书里",
+      "category": "感官与交互",
+      "cover": "content/covers/english-22.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_6182b17939e6474b871fab173502990c/candidates/f92863ad8c284f7aaa7eecd199917db5/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 22,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "character-study",
+      "title": "角色解码器",
+      "englishTitle": "Character Study",
+      "description": "一间安静的印刷工作室，把你的照片重排成由几个巨大变形文字组成的海报",
+      "category": "影像与角色",
+      "cover": "content/covers/character-study.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_c6e1d263f1f64d43bed0f9f4e2cc692d/candidates/6fcb01ec575f4a11ae45709fcf2348d5/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 24,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "city-of-three-lines",
+      "title": "三线之城",
+      "englishTitle": "City of Three Lines",
+      "description": "画三条线建成城市，探索主题任务、居民委托、买车与住宅；当前版源码与 waku 壳在 `current/`",
+      "category": "空间与游戏",
+      "cover": "content/covers/selected-25.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_c52e68fceefc4d59973d87b41d1f16bd/candidates/df59dc55cbaa41e9b3e6da56bf78b78e/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 25,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "decode-it",
+      "title": "解码万物",
+      "englishTitle": "Decode It",
+      "description": "把熟悉的世界重新打上马赛克；题库涵盖动物纹理、食物切面、世界地标",
+      "category": "空间与游戏",
+      "cover": "content/covers/decode-it.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_ba9ba4537d3c4ee495d938228d4f48f3/candidates/864a1819f5064f8cb2a701c141688caa/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 26,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "dimension-camera",
+      "title": "次元相机",
+      "englishTitle": "Isekai Lens",
+      "description": "打开相机，看看今天哪个动漫角色误入了你的世界，再和它合张影",
+      "category": "影像与角色",
+      "cover": "content/covers/selected-27.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_3b1843107fa24f7f8aa5b6e22c696c42/candidates/c14e9e12a51441838dd1b3d0234668ce/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 27,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "finger-garden",
+      "title": "手指花园",
+      "englishTitle": "Finger Garden",
+      "description": "一座长在指尖上的花园，摄像头认手，单手起势、双手合奏",
+      "category": "感官与交互",
+      "cover": "content/covers/selected-28.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_2d7553e7f1814715818e68372f4cc6a3/candidates/66374beff6314be1b6bf38b3d3247352/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 28,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "floral-signal",
+      "title": "电子插花",
+      "englishTitle": "Floral Signal",
+      "description": "竖屏触控的电子插花，在光信号里搭出一束花",
+      "category": "感官与交互",
+      "cover": "content/covers/english-29.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_380dfb411cd447ab85da5031e8d9ea41/candidates/d59906fb415c4352a4e046fd0f229035/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 29,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "gesture-dance-reveal",
+      "title": "手势舞",
+      "englishTitle": "Gesture Dance Reveal",
+      "description": "把单手 8 拍或双手 3 段编排，悄悄变成一支个人手势舞视频",
+      "category": "感官与交互",
+      "cover": "content/covers/gesture-dance-reveal.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_be53f6f0cde44b81844445aecae1fa31/candidates/35f1f07850e544f38bc910c5dcb4832b/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 30,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "glyphy",
+      "title": "字体设计",
+      "englishTitle": "Glyphy",
+      "description": "画一个字母，看它长成你自己的一套字体",
+      "category": "生成与设计",
+      "cover": "content/covers/glyphy.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_4d23a9111abf4d3b8d0e263d609611e2/candidates/91bffe9c263148428b76437242cf0cfa/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 31,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "hue-and-seek",
+      "title": "涂鸦躲猫猫",
+      "englishTitle": "Doodle Hide-and-Seek",
+      "description": "把自己涂成场景的颜色藏起来，和寻找者玩一局伪装躲猫猫",
+      "category": "空间与游戏",
+      "cover": "content/covers/english-32.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_3df0172103a74d5c894a8458155106b4/candidates/b62e704ba35a457d81166a44227eb8c5/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 32,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "immersive-block-world",
+      "title": "身临其境 · 我的世界",
+      "englishTitle": "Immersive Block World",
+      "description": "把照片送进方块传送门：人和动物保留原样，周围环境整个重建成 3D 方块世界",
+      "category": "影像与角色",
+      "cover": "content/covers/selected-33.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_932c7b678c4a4f1daa0f60967cc2f2cd/candidates/76f4aaba261949c4ab43bb2d24dd9c79/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 33,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "live-4-cuts",
+      "title": "人生四格",
+      "englishTitle": "4 Cuts Now",
+      "description": "拍一组四格照，再发现每张照片都偷偷留下了快门前后那一秒",
+      "category": "影像与角色",
+      "cover": "content/covers/selected-34.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_602c1d2a740d44d98d551d848693f0c1/candidates/9c44a748111c4835a1d454187079a2f6/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 34,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "multi-angle",
+      "title": "AI 摄影棚 · 多角度生成",
+      "englishTitle": "MULTI-ANGLE",
+      "description": "在淡线球体里拖动旋转和倾斜得到一个新机位，为竖屏内容生成多角度画面",
+      "category": "影像与角色",
+      "cover": "content/covers/selected-35.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_3aa33045a43d40afa83913c3e99f2216/candidates/1dcb978416aa457db8cc586af45af4c4/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 35,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "oc-character-archive",
+      "title": "OC 角色卡",
+      "englishTitle": "OC Archive",
+      "description": "手绘或上传草图生成完整角色，六项对话确认身份，收进自己的档案库",
+      "category": "影像与角色",
+      "cover": "content/covers/oc-character-archive.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_fb32a1cafed342a3a630ea8c477d03a2/candidates/3dc62f002a9649e6be57c1a9c53be55e/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 36,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "omni-face",
+      "title": "万物五官",
+      "englishTitle": "Anyface",
+      "description": "对准自己，瞬间变成任何东西——鸡块、云、行星，五官仍是你的",
+      "category": "影像与角色",
+      "cover": "content/covers/omni-face.png",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_891c53a1c1a048e4ba60f70b71d94c97/candidates/90782ffffbc047c990d99f9f453443bf/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 37,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "ootd-character-card",
+      "title": "OOTD 迷你我",
+      "englishTitle": "OOTD Mini-Me",
+      "description": "上传今天的穿搭，一个同款卡通小人贴进你的照片里",
+      "category": "影像与角色",
+      "cover": "content/covers/ootd-character-card.png",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_3af38d1afd4745fa9f1df9120964c33c/candidates/96d394d53e594decbb78b083521976cc/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 38,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "pet-star-twin",
+      "title": "宠物转换器",
+      "englishTitle": "Pawparazzi",
+      "description": "上传宠物，见到它私底下的人类身份，一张满版明星写真",
+      "category": "影像与角色",
+      "cover": "content/covers/pet-star-twin.png",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_858cfdb8b2994d8ebe7fb1b8725f04cd/candidates/89ff3cb7ffd9432a912629cb42589f87/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 39,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "pet-voice-translator",
+      "title": "宠物声音翻译器",
+      "englishTitle": "MEOWSCOPE MK·I",
+      "description": "面向猫、狗和鸟的生物声学翻译装置，你出声，它回话",
+      "category": "音乐与声音",
+      "cover": "content/covers/selected-40.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_4b5a61a36c624f66aba0ce1ec944efdf/candidates/1ad5764635314066912a3767aa3e99b2/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 40,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "pocket-pet-lab",
+      "title": "3D 小猫生成器",
+      "englishTitle": "Pocket Pet Lab",
+      "description": "口袋宠物实验室，捏一只属于自己的 3D 小猫",
+      "category": "空间与游戏",
+      "cover": "content/covers/selected-41.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_5d81745d52d14ebd946ab3cfbc50ef89/candidates/76bd1aabd65e4fae885c941bc4f773fd/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 41,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "purrfect-fit",
+      "title": "俄罗斯方块",
+      "englishTitle": "Animal Tetris",
+      "description": "每个方块都是一只小动物，把整个房间塞满、不留缝隙",
+      "category": "空间与游戏",
+      "cover": "content/covers/purrfect-fit.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_1463b2e5308c4554a2a649f25d84b712/candidates/0c404ebd11294aa2b2752f66a6b6d62b/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 42,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "rhythm-challenge",
+      "title": "节奏挑战",
+      "englishTitle": "Rhythm Challenge",
+      "description": "可连续换主题的中文节奏听说接龙",
+      "category": "音乐与声音",
+      "cover": "content/covers/english-43.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_2bc38048d18d4cfd9f231ba8153a3ed6/candidates/2fe00b983e0b45edb91c78bb3bcb9964/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 43,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "signal-maze",
+      "title": "迷宫插画",
+      "englishTitle": "Signal Maze",
+      "description": "从开源迷宫游戏二创而来的插画式迷宫",
+      "category": "空间与游戏",
+      "cover": "content/covers/selected-44.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_51d669b1be29445fa623d6c64c406363/candidates/e4c117f46cc64e628105fca0271d7c5f/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 44,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "sparkle-sweep",
+      "title": "闪光填色",
+      "englishTitle": "Sparkle Sweep",
+      "description": "用自己的照片做的闪光数字填色游戏",
+      "category": "生成与设计",
+      "cover": "content/covers/english-45.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_347e1366219944fdb47f86d86a755528/candidates/f38d4b8beb8f494bb602d9ebdbbb9de4/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 45,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "take-one",
+      "title": "配音秀",
+      "englishTitle": "TAKE ONE-Audition",
+      "description": "口袋配音棚：选一个角色给一场戏配音、换情绪重来，AI 评委给你一张试镜卡",
+      "category": "音乐与声音",
+      "cover": "content/covers/take-one.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_124020e06f004089bd598632b947a6ed/candidates/6e063fd49f6a4031841b59ef62803996/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 46,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "toon-twin",
+      "title": "动画角色转换器",
+      "englishTitle": "Toon Twin",
+      "description": "拍下任何人——朋友、妈妈、狗——AI 裁判亢奋地宣布他的动画分身",
+      "category": "影像与角色",
+      "cover": "content/covers/selected-47.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_576422bb65e54204b0ff857832aa52e7/candidates/1748f0dec43849199dbf3ec99b1de978/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 47,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "trend-cam",
+      "title": "热点相机",
+      "englishTitle": "Hype Cam",
+      "description": "一台口袋大头贴机，开机就已经戴着本周互联网热度第一的审美",
+      "category": "影像与角色",
+      "cover": "content/covers/selected-48.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_847e925262034d838deb75f0984408ec/candidates/6921dbbdaf77427b83440d0067a5d2ee/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 48,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "true-sight",
+      "title": "眼力挑战",
+      "englishTitle": "True Sight",
+      "description": "奢侈品、汽车、地标、名画题库，五轮四选一找出唯一的真版本",
+      "category": "空间与游戏",
+      "cover": "content/covers/true-sight.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_3e47be21e21c4fd0b5690951976c6343/candidates/3105ccb5462d4262a27a0e7d794cf3c9/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 49,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "waku-headlines",
+      "title": "waku 头条",
+      "englishTitle": "waku Headlines",
+      "description": "持续更刊的双面新闻报：A 面热点配互动图解，B 面入口通往 waku 作品",
+      "category": "叙事与生活",
+      "cover": "content/covers/waku-headlines.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_a7ef91ab07f14c5ab31a76f9aafa416d/candidates/128ff0be2bf34be69fc3d3ad7d4d0273/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 50,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "wallpaper-studio",
+      "title": "壁纸生成器",
+      "englishTitle": "Wallpaper Muse",
+      "description": "十二个精选合集的活壁纸画廊，滑动收藏，再揭开一张独一无二的",
+      "category": "生成与设计",
+      "cover": "content/covers/wallpaper-studio.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_274a02c4c93a40b5a6593b25f6dd634e/candidates/ba831a29adba4feba329d6c7c2ef8016/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 51,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "wish-exchange",
+      "title": "愿望交易所",
+      "englishTitle": "Make a Wish",
+      "description": "竖屏 3D 互动叙事：把 350 点人生资源分配出去，换一个愿望，签一张契约",
+      "category": "叙事与生活",
+      "cover": "content/covers/english-52.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_e82c0c1c912f427eb43efd22af2faee2/candidates/66ad249f45bb47138511a341feeedff0/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 52,
+      "kind": "waku",
+      "status": "体验预览"
+    },
+    {
+      "id": "y2k-collage-filter",
+      "title": "局部滤镜拼接",
+      "englishTitle": "B-Side",
+      "description": "框住照片的任何一块——一只眼、半张脸——它就变成黑白漫画分镜",
+      "category": "影像与角色",
+      "cover": "content/covers/selected-53.jpg",
+      "previewUrl": "https://storage.googleapis.com/waku-core-aicap/stage/prv_29994f0e299f4cb29fbfc277453f97c1/candidates/8794267da708481f93b6a2a90e73c4f0/index.html",
+      "previewKind": "stage",
+      "localAvailable": true,
+      "number": 53,
+      "kind": "waku",
+      "status": "体验预览"
+    }
+  ],
+  "dramas": [
+    {
+      "id": "mii",
+      "title": "今天不要上班，咪养你",
+      "englishTitle": "No Work Today. Mii’s Got You.",
+      "description": "让小猫接管今天，选择回应、摸摸它，在陪伴中慢下来。",
+      "meta": "10 集 · 11 个选择 · 摸头互动",
+      "previewUrl": "https://lyx1265897416-lab.github.io/mii-takes-care-of-you/",
+      "previewKind": "interactive-remote",
+      "cover": "content/covers/drama-mii-en.svg",
+      "status": "已公开 · 可互动预览",
+      "kind": "drama",
+      "category": "互动剧集",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#ffae58"
+    },
+    {
+      "id": "meet-again",
+      "title": "今天，再喜欢我一次",
+      "englishTitle": "Meet Me, Again",
+      "description": "在海边小镇与他再次相遇，用你的回应、靠近和记录，让心动一天一天延续。",
+      "meta": "8 集 · 分支选择 · 互动预览",
+      "previewUrl": "https://lyx1265897416-lab.github.io/meet-me-again/",
+      "previewKind": "interactive-remote",
+      "status": "已公开 · 可互动预览",
+      "kind": "drama",
+      "category": "互动剧集",
+      "cover": "content/covers/drama-meet-again-en.svg",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#c5d2a5"
+    },
+    {
+      "id": "magnus",
+      "title": "与狼为伍",
+      "englishTitle": "In the Company of Wolves",
+      "description": "在午夜邂逅 Magnus。靠近危险，也在一次次选择中改写彼此的关系。",
+      "meta": "7 集 · 8 个选择点",
+      "previewUrl": "https://lyx1265897416-lab.github.io/magnus-midnight-garage-series/",
+      "previewKind": "interactive-remote",
+      "cover": "content/covers/drama-magnus-en.svg",
+      "status": "已公开 · 可互动预览",
+      "kind": "drama",
+      "category": "互动剧集",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#edb948"
+    },
+    {
+      "id": "sea-prince",
+      "title": "人鱼王子的准新娘",
+      "englishTitle": "The Merman Prince’s Bride",
+      "description": "以女主第一视角进入海洋奇幻故事，让你的回应推动情节。",
+      "meta": "前 5 集 · 分支选择",
+      "previewUrl": "https://lyx1265897416-lab.github.io/sea-prince-almost-bride/",
+      "previewKind": "interactive-remote",
+      "cover": "content/covers/drama-sea-prince-en.svg",
+      "status": "已公开 · 可互动预览",
+      "kind": "drama",
+      "category": "互动剧集",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#b9e4f0"
+    },
+    {
+      "id": "nine-lives",
+      "title": "捡到了黑猫大佬",
+      "englishTitle": "One Night, Nine Lives",
+      "description": "一只没人要的黑猫，在天亮后变成了你厨房里的陌生男人。",
+      "meta": "6 集 · 20 个选择 · 3 个结局",
+      "previewUrl": "https://lyx1265897416-lab.github.io/one-night-nine-lives/",
+      "previewKind": "interactive-remote",
+      "cover": "content/covers/drama-nine-lives-en.svg",
+      "status": "已公开 · 可互动预览",
+      "kind": "drama",
+      "category": "互动剧集",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#c9adf0"
+    }
+  ],
+  "library": [
+    {
+      "id": "vicky-create",
+      "title": "从灵感到可玩体验",
+      "englishTitle": "Vicky Create",
+      "category": "Skill",
+      "glyph": "✳",
+      "description": "把视觉、互动、声音、个人结果与交付验证放进同一条创作流程。",
+      "tags": [
+        "体验链",
+        "视觉系统",
+        "持续迭代"
+      ],
+      "sections": [
+        {
+          "title": "先定义体验，再搭界面",
+          "text": "先明确进入情境、用户动作、即时反馈与最终结果。围绕一个核心乐趣，形成 Hook → 动作 → 反馈 → 状态变化 → 个人结果的体验链。"
+        },
+        {
+          "title": "让画面、声音和交互属于同一个世界",
+          "text": "从真实资产出发建立材质、光线和运动节奏。生成、预览、保存和分享使用同一份结果，避免“看得到却带不走”。"
+        },
+        {
+          "title": "从第一版考虑交付",
+          "text": "移动视口、安全区、生命周期、双语、素材和 QA 判据同时进入第一版。局部改进沿着已确认的作品继续。"
+        }
+      ],
+      "template": "项目：\n用户进入的情境：\n核心动作：\n即时可见反馈：\n状态如何变化：\n用户带走的结果：\n视觉 / 声音 / 动态规则：\n本轮可观察的验收标准：",
+      "source": "vicky-create/SKILL.md",
+      "kind": "library",
+      "number": 1,
+      "download": "content/library/vicky-create.md"
+    },
+    {
+      "id": "vicky-drama",
+      "title": "让选择成为一场戏",
+      "englishTitle": "Vicky Drama",
+      "category": "Skill",
+      "glyph": "◐",
+      "description": "从角色、表演、镜头到分支，把观看组织成有回应的互动叙事。",
+      "tags": [
+        "角色连续性",
+        "POV",
+        "分支叙事"
+      ],
+      "sections": [
+        {
+          "title": "选择要在表演中发生",
+          "text": "先决定用户为什么在此刻选择，再设计角色接收到刺激后的可见回应。分支应改变行为与持续事实，而不只是替换按钮和台词。"
+        },
+        {
+          "title": "让人物、空间和声音连续",
+          "text": "身份、衣服、道具、站位、目线与声音归属都沿用本项目的已确认状态。纯 POV 的项目以真实视线、距离和动作变化景别。"
+        },
+        {
+          "title": "以连续体验验收",
+          "text": "脚本、结构检查和抽帧各有用途，但不能代替动态观看。局部返修接回完整剧集，确认声音、表演与选择后的衔接。"
+        }
+      ],
+      "template": "本段入口状态：\n用户收到的信息：\n选择的职责：\n分支 A 的可见回应 / 出口：\n分支 B 的可见回应 / 出口：\n合流需要满足的条件：\n视听验收点：",
+      "source": "vicky-drama/SKILL.md",
+      "kind": "library",
+      "number": 2,
+      "download": "content/library/vicky-drama.md"
+    },
+    {
+      "id": "video-harness",
+      "title": "互动视频执行框架",
+      "englishTitle": "Video Harness",
+      "category": "Harness",
+      "glyph": "⌘",
+      "description": "将事件、导演计划、模型调用和审核过的状态推进分开，保留每轮执行证据。",
+      "tags": [
+        "状态版本",
+        "模型适配",
+        "可追踪执行"
+      ],
+      "sections": [
+        {
+          "title": "规划与执行分开",
+          "text": "interpret → plan → prepare → submit → collect → accept。创作计划不是已经发生的结果；实际输出审核后，才推进到下一轮状态。"
+        },
+        {
+          "title": "为每次动作留下依据",
+          "text": "session_id、event_id 与 state revision 共同定位一轮。校验输入、允许动作和模型参数，拒绝过期计划与不匹配的状态。"
+        },
+        {
+          "title": "可替换的模型与 Agent",
+          "text": "自由输入由 Agent 输出受限解释，模型适配器根据当前 schema 编译参数。框架本身不提供无限生成或自动通过的承诺。"
+        }
+      ],
+      "template": "scene + state + event\n  → interpret / clarify\n  → plan\n  → schema validation\n  → submit + collect\n  → review actual output\n  → accept actual end state",
+      "source": "vicky-drama/scripts/video-harness.mjs",
+      "kind": "library",
+      "number": 3,
+      "download": "content/library/video-harness.md"
+    },
+    {
+      "id": "response-agent",
+      "title": "理解选择的回应导演",
+      "englishTitle": "Response Director",
+      "category": "Agent",
+      "glyph": "◎",
+      "description": "把玩家表达转成场景允许的动作，处理否定、条件、暂停与需要澄清的意图。",
+      "tags": [
+        "意图理解",
+        "动作路由",
+        "结构化协议"
+      ],
+      "sections": [
+        {
+          "title": "先理解用户的这一句话",
+          "text": "例如“今天不牵手，但你可以留下”同时包含拒绝触碰与允许陪伴。不能只匹配到“牵手”便开始演绎。"
+        },
+        {
+          "title": "只路由到合法动作",
+          "text": "使用当前 scene.actions、人物知情范围和空间状态。确有歧义时返回 clarify；没有用户输入不等于同意或拒绝。"
+        },
+        {
+          "title": "解释可被校验",
+          "text": "输出事件 ID、状态版本、route / clarify、action_id 和来自当前输入的 evidence。模型参数与真实状态由 Harness 管理。"
+        }
+      ],
+      "template": "{\n  \"event_id\": \"event-001\",\n  \"state_revision\": 0,\n  \"decision\": \"route\",\n  \"action_id\": \"stay_and_listen\",\n  \"evidence\": \"你可以留下\",\n  \"reason\": \"拒绝触碰，但允许陪伴\",\n  \"question\": null\n}",
+      "source": "vicky-drama/references/video-agent-system-prompt.md",
+      "kind": "library",
+      "number": 4,
+      "download": "content/library/response-agent.md"
+    },
+    {
+      "id": "video-pe",
+      "title": "把表演写进 Prompt",
+      "englishTitle": "Prompt as Direction",
+      "category": "PE",
+      "glyph": "↗",
+      "description": "把“自然、亲密、有电影感”转译成模型能够执行、创作者能够检查的镜头信息。",
+      "tags": [
+        "参考职责",
+        "动作因果",
+        "镜头连续"
+      ],
+      "sections": [
+        {
+          "title": "参考有各自的职责",
+          "text": "分别绑定身份、服装、空间、起始状态、运动和声音；避免把参考图里无关的人物或表情一起带入。"
+        },
+        {
+          "title": "行为具体，运镜有动机",
+          "text": "描述谁接收到什么，如何回应，手、眼神、道具与距离怎样变化。摄影区分位置路径、观察方向、焦点、开始原因和停住位置。"
+        },
+        {
+          "title": "入口与出口可以核对",
+          "text": "写下动作开始时的真实状态和计划出口。下一镜接续的是审核过的成片出口，而不是尚未发生的设想。"
+        }
+      ],
+      "template": "References: identity / wardrobe / location / actual start state.\nStart: positions, gaze, hands, props and current activity.\nTrigger: the exact user-selected meaning.\nPerformance: visible reception, response, action and aftermath.\nSpeech: exact dialogue, speaker, delivery and pauses.\nCamera: position/path, target, focus, start and endpoint.\nEnd: hands, distance, objects and continuing activity.\nProtect: this shot’s specific continuity constraints.",
+      "source": "vicky-drama/references/video-prompt-method.md",
+      "kind": "library",
+      "number": 5,
+      "download": "content/library/video-pe.md"
+    },
+    {
+      "id": "creative-qa",
+      "title": "把体验变成可验证的事",
+      "englishTitle": "Creative QA",
+      "category": "测试",
+      "glyph": "✓",
+      "description": "区分结构正确、视听成立、完整可玩与真实设备验证，让每个结论有对应证据。",
+      "tags": [
+        "状态回归",
+        "视听检查",
+        "体验走查"
+      ],
+      "sections": [
+        {
+          "title": "不同检查回答不同问题",
+          "text": "构建检查证明程序可以产出；结构测试证明状态和协议；动态审片验证表演与接镜；完整体验验证互动是否真正成立。"
+        },
+        {
+          "title": "结论附带范围与证据",
+          "text": "使用通过、未通过、未验证、不适用四种状态。记录版本、对象、检查方式和证据，不把桌面模拟等同于真机测试。"
+        },
+        {
+          "title": "返修后保住已确认的体验",
+          "text": "围绕失败的转移、前后接点及相关分支回归。把问题落实到具体对象，而不是只有一句“整体优化”。"
+        }
+      ],
+      "template": "检查项：\n版本 / 对象：\n预期可观察结果：\n实际结果：\n状态：通过 / 未通过 / 未验证 / 不适用\n证据：\n影响与后续处理：",
+      "source": "vicky-drama/references/creation-delivery-checklist.md",
+      "kind": "library",
+      "number": 6,
+      "download": "content/library/creative-qa.md"
+    }
+  ],
+  "profile": {
+    "name": "Vicky",
+    "role": "AIGC 设计工程师",
+    "headline": "把想象，做成可以进入的体验。",
+    "bio": "我从数字媒体艺术与内容创作出发，探索 AI、视觉叙事和交互体验的连接。工作覆盖创意策划、视觉风格、图像与视频生成、可交互原型，以及模型评估与创作流程搭建。也把实践沉淀成 Skill、Prompt 与可复用的工作流，让灵感持续落地。",
+    "education": [
+      {
+        "school": "北京工商大学",
+        "degree": "本科",
+        "major": "数字媒体艺术 · 金融科技双学位",
+        "period": "2021—2025"
+      }
+    ],
+    "focus": [
+      "AI 影像与互动叙事",
+      "创意编程与体验设计",
+      "Prompt / Context / Harness",
+      "Skill 与工作流沉淀",
+      "多模态模型测试与评估"
+    ],
+    "portrait": "content/profile/vicky.png",
+    "lifeSlots": [
+      {
+        "label": "生活片段",
+        "caption": "工作之外的我，慢慢补上。"
+      },
+      {
+        "label": "正在热爱",
+        "caption": "留给热爱的事物与日常里的灵感。"
+      },
+      {
+        "label": "新的故事",
+        "caption": "未完待续。"
+      }
+    ],
+    "life": {
+      "intro": "把眼睛留给风光，把时间留给热爱。",
+      "note": "已接入的真实照片可展开、点击放大；其余色彩封面暂为示意，Live 和视频仍在补充。",
+      "chapters": [
+        {
+          "id": "outside",
+          "en": "OUT & ABOUT",
+          "title": "把眼睛留给风光",
+          "short": "风景与漫游",
+          "caption": "南澳的蓝调、沙巴的日落，还有一次次走进香港。",
+          "symbol": "↗"
+        },
+        {
+          "id": "wonder",
+          "en": "A LITTLE WONDER",
+          "title": "在展览里，玩一会儿",
+          "short": "看展与灵感",
+          "caption": "设计探索、躲猫猫，和毛茸茸的我。",
+          "symbol": "✳"
+        },
+        {
+          "id": "rhythm",
+          "en": "IN THE MOMENT",
+          "title": "跟着节奏，动起来",
+          "short": "舞蹈与现场",
+          "caption": "舞蹈接力、练舞片段，和散场后的后劲。",
+          "symbol": "≋"
+        },
+        {
+          "id": "together",
+          "en": "MOMENTS TO KEEP",
+          "title": "永远为群像着迷",
+          "short": "朋友与日常",
+          "caption": "一个人是快乐，一群人是狂欢。",
+          "symbol": "♡"
+        }
+      ],
+      "stories": [
+        {
+          "id": "blue-hour",
+          "chapter": "outside",
+          "title": "蓝调时刻",
+          "en": "THE BLUE HOUR",
+          "place": "南澳岛",
+          "date": "05.24",
+          "quote": "蓝调时刻💙",
+          "summary": "海岸、灯塔、天空和人像，一组留给蓝色的旅行记录。",
+          "detail": "将海面与灯塔放在相册的开头，再接旅途中的人像。与沙巴的暖色日落并置，保留两段旅行不同的颜色。",
+          "art": "blue",
+          "media": "photos"
+        },
+        {
+          "id": "kota",
+          "chapter": "outside",
+          "title": "Sunset in Kota",
+          "en": "UNTIL THE SUN GOES DOWN",
+          "place": "沙巴",
+          "date": "08.08—08.10",
+          "quote": "把眼睛留给风光",
+          "summary": "从海岛人像到自然风景，再到天色慢慢变暖。",
+          "detail": "合并「Sunset in Kota」「把眼睛留给风光」「海岛人像」三组记录，精选海边、树影、自然观察与落日。",
+          "art": "sunset",
+          "media": "photos"
+        },
+        {
+          "id": "hk-colors",
+          "chapter": "outside",
+          "title": "HK 三原色",
+          "en": "RED. YELLOW. BLUE.",
+          "place": "香港",
+          "date": "02—06",
+          "quote": "HK 我能来无数次",
+          "summary": "用红、黄、蓝，记下街道、海边和再次出发。",
+          "detail": "将多次香港记录收进同一相册，以「HK 三原色 get」为视觉主线。「Hong Kong 小記」与「小記_2.0」作为后续旅行视频候选。",
+          "art": "rgb",
+          "media": "mixed"
+        },
+        {
+          "id": "autumn",
+          "chapter": "outside",
+          "title": "秋天，去旷野",
+          "en": "SOMEWHERE WIDE OPEN",
+          "place": "呼伦贝尔",
+          "date": "10.06",
+          "quote": "看似大西北，实际大东北🍂",
+          "summary": "秋色、草原和骑马的旅行片段。",
+          "detail": "秋日草原、村落和穿过旷野的马队。看似大西北，实际大东北。",
+          "art": "autumn",
+          "media": "photos",
+          "assets": [
+            {
+              "type": "photo",
+              "src": "content/life/autumn/hulunbuir-preview.jpg",
+              "alt": "呼伦贝尔秋日草原、村落和穿过草地的马队",
+              "caption": "看似大西北，实际大东北。 · 呼伦贝尔 / 10.06",
+              "source": "微信置顶大图屏幕预览，非原图"
+            }
+          ]
+        },
+        {
+          "id": "design-trip",
+          "chapter": "wonder",
+          "title": "设计探索",
+          "en": "A DAY AT THE EXHIBITION",
+          "place": "深圳",
+          "date": "09.07",
+          "quote": "设计探索·纯享版 / 设计探索 live 版",
+          "summary": "在展品、字体、空间和装置之间走走停停。",
+          "detail": "将同日的两组记录合并，交替呈现展览空间、设计细节和人在其中的视角。",
+          "art": "gallery",
+          "media": "photos"
+        },
+        {
+          "id": "fluffy",
+          "chapter": "wonder",
+          "title": "毛茸茸的我",
+          "en": "FLUFFY ME",
+          "place": "看展记录",
+          "date": "10.02",
+          "quote": "躲猫猫🐾 · Fluffy Me✨毛茸茸的我",
+          "summary": "猫、色彩和有趣的展品，收进同一天的相册。",
+          "detail": "合并「躲猫猫」和「Fluffy Me」两组照片，以展品与空间为主，保留轻松、有趣的朋友圈语气。",
+          "art": "fluffy",
+          "media": "photos"
+        },
+        {
+          "id": "tbaby",
+          "chapter": "wonder",
+          "title": "T BABY",
+          "en": "A LITTLE ROOM FOR FEELINGS",
+          "place": "看展记录",
+          "date": "04.05",
+          "quote": "it is okay to not be okay",
+          "summary": "一组彩色角色与展品的观看记录。",
+          "detail": "保留原帖中的这句话，搭配卡通形象、彩色展品和展览中的人物照片。",
+          "art": "rainbow",
+          "media": "photos"
+        },
+        {
+          "id": "snap",
+          "chapter": "rhythm",
+          "title": "Snap My Finger",
+          "en": "MOVE WITH THE MUSIC",
+          "place": "舞蹈视频记录",
+          "date": "07.15",
+          "quote": "Snap My Finger",
+          "summary": "给舞蹈留一个独立的位置。",
+          "detail": "已记录这条视频的标题与封面；尚未获取视频文件。这里将接入原视频，不以截图代替完整观看。",
+          "art": "rhythm",
+          "media": "video"
+        },
+        {
+          "id": "relay",
+          "chapter": "rhythm",
+          "title": "舞蹈接力挑战！",
+          "en": "ONE MORE ROUND",
+          "place": "舞蹈视频记录",
+          "date": "06—07",
+          "quote": "舞蹈接力挑战！",
+          "summary": "接力挑战、一个前摇很长的 5，还有消食速跳版。",
+          "detail": "候选包括「舞蹈接力挑战！」「一个前摇很长的 5」「barbarbar 消食速跳版」及「champion~」。目前按原帖标题归档，视频内容待接入后精选。",
+          "art": "rhythm-dark",
+          "media": "video"
+        },
+        {
+          "id": "csd",
+          "chapter": "rhythm",
+          "title": "散场以后，仍然心动",
+          "en": "STILL FEELING IT",
+          "place": "CSD · 观众视角",
+          "date": "09.28",
+          "quote": "怎么观众的 CSD 后劲也这么大",
+          "summary": "舞台、观众席和现场相遇。",
+          "detail": "作为观众视角的现场回忆，与个人舞蹈记录分开。优先选择舞台氛围和有故事感的现场照片。",
+          "art": "stage",
+          "media": "photos"
+        },
+        {
+          "id": "friends",
+          "chapter": "together",
+          "title": "永远为群像着迷",
+          "en": "BETTER TOGETHER",
+          "place": "生日与相聚",
+          "date": "08",
+          "quote": "一个人是快乐，一群人是狂欢",
+          "summary": "好爱热烈又鲜活的我们。",
+          "detail": "把生日聚会、庆祝片段和合照收进一个故事。「那就祝我们」与「perfect day」作为其他相聚时刻，保留原本的温度。",
+          "art": "together",
+          "media": "mixed"
+        },
+        {
+          "id": "daily-style",
+          "chapter": "together",
+          "title": "镜头里的日常",
+          "en": "LITTLE THINGS, LATELY",
+          "place": "风格手记",
+          "date": "03—07",
+          "quote": "ccd 人像大赏 · 昨日 ootd",
+          "summary": "穿搭、自拍、窗边光影，和刚好好拍的地方。",
+          "detail": "从 CCD 人像、OOTD、自然光自拍和城市窗边记录中精选几张，保留不同日子的色彩与穿搭。",
+          "art": "style",
+          "media": "photos"
+        },
+        {
+          "id": "play",
+          "chapter": "together",
+          "title": "还没玩过瘾",
+          "en": "JUST ONE MORE GO",
+          "place": "卡丁车与街机",
+          "date": "02 / 06",
+          "quote": "油门踩到底！还没玩过瘾",
+          "summary": "在赛道和街机之间，留一点玩心。",
+          "detail": "卡丁车体验与街机日常组成一个轻量片段，收进运动感、霓虹色和玩乐时刻。",
+          "art": "play",
+          "media": "photos"
+        }
+      ]
+    }
+  },
+  "wiki": {
+    "title": "Vicky 资产库",
+    "url": "https://lyx1265897416-lab.github.io/Vicky-Asset-Repository/",
+    "description": "角色、服装造型、场景、道具、音色、背景音乐与视频。"
+  }
+}
