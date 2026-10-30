@@ -3,7 +3,7 @@ export function stepWalk(position,velocity,input,yaw,dt,blockers,bounds={minX:-3
  dt=Math.min(Math.max(dt,0),.05);
  let forward=input.forward||0,side=input.side||0;
  const magnitude=Math.hypot(forward,side);if(magnitude>1){forward/=magnitude;side/=magnitude;}
- const speed=input.fast?11:6,active=magnitude>0,k=1-Math.exp(-dt*(active?10:22));
+ const speed=input.fast?17:10,active=magnitude>0,k=1-Math.exp(-dt*(active?12:30));
  const vx=(Math.sin(yaw)*forward+Math.cos(yaw)*side)*speed;
  const vz=(-Math.cos(yaw)*forward+Math.sin(yaw)*side)*speed;
  velocity.x+=(vx-velocity.x)*k;velocity.z+=(vz-velocity.z)*k;
