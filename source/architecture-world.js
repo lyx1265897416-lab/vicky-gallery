@@ -91,10 +91,30 @@ export function buildArchitecture({scene,geo,mat,mesh}){
  lightLine(45,3,8.35,-146.45);
  for(let i=0;i<7;i++){const s=outline(48,2.8,.4);const o=solid(s,.3,rose,3,10.6+i*.15,-106-i*6);const v=o.geometry.attributes.position;for(let j=0;j<v.count;j++){const x=v.getX(j);v.setZ(j,v.getZ(j)+3.8*Math.cos(x/24*Math.PI/2)+.6*Math.sin(x*.12+i*.6));}o.geometry.computeVertexNormals();}
  labels.push(label('03  /  AFTERGLOW',3,10.6,-146.3,0,9));
- // Two continuous land bridges connect the three unique buildings.
- function bridge(points,width){const curve=new T.CatmullRomCurve3(points.map(p=>new T.Vector3(...p))),pos=[],idx=[];for(let i=0;i<=100;i++){const t=i/100,p=curve.getPoint(t),d=curve.getTangent(t),n=new T.Vector3(-d.z,0,d.x).normalize();for(const sign of [-1,1])pos.push(p.x+n.x*width/2*sign,p.y,p.z+n.z*width/2*sign);if(i<100){const a=i*2;idx.push(a,a+1,a+2,a+1,a+3,a+2);}}const g=geo(new T.BufferGeometry());g.setAttribute('position',new T.Float32BufferAttribute(pos,3));g.setIndex(idx);g.computeVertexNormals();const o=mesh(g,chalk,0,0,0);o.material=mat(mineralMaterial('#f3e8db',.72));o.material.side=T.DoubleSide;o.receiveShadow=true;}
- bridge([[17,.5,-37],[32,.8,-38],[43,.6,-28],[65,.5,-32]],7);
- bridge([[65,.5,-89],[48,.8,-97],[26,.6,-92],[3,.5,-99]],8);
+ // Sculpted causeways meet the entrance axes and sink inside the receiving plinth.
+ // A closed, bevelled section replaces the old paper-thin, square-ended strips.
+ function causeway(points,width,startColor,endColor){
+  const curve=new T.CubicBezierCurve3(...points.map(p=>new T.Vector3(...p))),pos=[],colors=[],idx=[];
+  const steps=180,ring=8,from=new T.Color(startColor),to=new T.Color(endColor);
+  for(let i=0;i<=steps;i++){
+   const t=i/steps,p=curve.getPoint(t),d=curve.getTangent(t),n=new T.Vector3(-d.z,0,d.x).normalize();
+   const flare=1+.32*(1-T.MathUtils.smoothstep(t,0,.2))+.38*T.MathUtils.smoothstep(t,.8,1),half=width*flare/2;
+   const section=[[-half+.12,0],[half-.12,0],[half,-.09],[half,-.36],[half-.12,-.45],[-half+.12,-.45],[-half,-.36],[-half,-.09]];
+   const color=from.clone().lerp(to,T.MathUtils.smoothstep(t,.2,.78));
+   section.forEach(([side,y])=>{pos.push(p.x+n.x*side,p.y+y,p.z+n.z*side);colors.push(color.r,color.g,color.b);});
+   if(i<steps)for(let j=0;j<ring;j++){const a=i*ring+j,b=i*ring+(j+1)%ring,c=a+ring,e=b+ring;idx.push(a,b,c,b,e,c);}
+  }
+  // End caps are hidden inside each substantial pavilion foundation.
+  for(let j=1;j<ring-1;j++){idx.push(0,j+1,j);const a=steps*ring;idx.push(a,a+j,a+j+1);}
+  const g=geo(new T.BufferGeometry());g.setAttribute('position',new T.Float32BufferAttribute(pos,3));g.setAttribute('color',new T.Float32BufferAttribute(colors,3));g.setIndex(idx);g.computeVertexNormals();
+  const surface=mat(mineralMaterial('#ffffff',.8));surface.vertexColors=true;
+  const o=mesh(g,surface,0,0,0);o.castShadow=o.receiveShadow=true;
+ }
+ // Depart through the sky court's open rear portal, arrive perpendicular to the water court.
+ causeway([[1,.5,-41],[1,.5,-85],[65,.54,8],[65,.54,-37]],7,'#ece0cb','#f3e8db');
+ // The theatre approach turns toward its centre, widening into a rose-stone threshold.
+ // Both end faces lie under the floor, with matching finish and level at the join.
+ causeway([[47,.74,-86],[47,.74,-130],[3,.42,-60],[3,.42,-105]],7,'#ece0cb','#cba8a0');
  // Non-repeating distant topography is a continuous displaced surface, not more gallery props.
  const terrain=geo(new T.PlaneGeometry(900,900,100,100));terrain.rotateX(-Math.PI/2);const tp=terrain.attributes.position;
  for(let i=0;i<tp.count;i++){const x=tp.getX(i),z=tp.getZ(i),dist=Math.hypot(x,z);tp.setY(i,dist<155?-5:Math.max(-3,(Math.sin(x*.019+z*.008)+Math.cos(z*.023))*9+Math.sin(x*.041)*3-3));}terrain.computeVertexNormals();mesh(terrain,mat(new T.MeshStandardMaterial({color:'#b2bea7',roughness:1})),0,-1,-50);
