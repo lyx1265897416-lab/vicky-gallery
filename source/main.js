@@ -1,9 +1,11 @@
+import {initLanguage} from './i18n.js';
 import * as T from 'three';
 import {Reflector} from 'three/addons/objects/Reflector.js';
 import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
 import {ASSETS} from './assets.js';
 import {createPortfolio} from './portfolio.js';
+initLanguage();
 let portfolio;
 
 const $=s=>document.querySelector(s),v=(x,y,z)=>new T.Vector3(x,y,z),clamp=T.MathUtils.clamp;

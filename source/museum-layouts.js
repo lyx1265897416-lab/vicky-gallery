@@ -6,7 +6,7 @@ export const LAYOUTS={
  space:{title:'梦境漫游',heading:'A place between worlds.',note:'在无边的水面与悬浮建筑之间，发现想象的入口。'},
  cinema:{title:'故事放映厅',heading:'The story pavilion.',note:'在柔光里入座，让故事在你的选择中继续。'},
  atelier:{title:'灵感藏书室',heading:'The making room.',note:'把实践装订成册，让灵感成为可以带走的方法。'},
- corridor:{title:'梦境长廊',heading:'The playground.',note:'保留最初的悬浮长廊，拖动探索 53 个想象入口。'}
+ corridor:{title:'梦境长廊',heading:'The playground.',note:'保留最初的悬浮长廊，拖动探索 52 个想象入口。'}
 };
 export function createMuseumLayouts(scene){
  const rotunda=new T.Group(),space=new T.Group(),cinema=new T.Group(),atelier=new T.Group();const rooms={rotunda,space,cinema,atelier};scene.add(...Object.values(rooms));
