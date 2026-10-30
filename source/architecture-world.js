@@ -1,11 +1,12 @@
 import * as T from 'three';
+import {mineralMaterial} from './continuous-environment.js';
 
 // Three individually composed pavilions: no tiled buildings or primitive sculpture array.
-export function buildArchitecture({scene,geo,mat,mesh,stone}){
+export function buildArchitecture({scene,geo,mat,mesh}){
  const anchors=[],blockers=[],animated=[],occluders=[];
- const cream=mat(new T.MeshStandardMaterial({color:'#ece0cb',map:stone,bumpMap:stone,bumpScale:.035,roughness:.8}));
- const rose=mat(new T.MeshStandardMaterial({color:'#cba8a0',map:stone,bumpMap:stone,bumpScale:.025,roughness:.86}));
- const chalk=mat(new T.MeshStandardMaterial({color:'#f3e8db',roughness:.72}));
+ const cream=mat(mineralMaterial('#ece0cb',.8));
+ const rose=mat(mineralMaterial('#cba8a0',.86));
+ const chalk=mat(mineralMaterial('#f3e8db',.72));
  const jade=mat(new T.MeshPhysicalMaterial({color:'#8fb4ac',roughness:.28,metalness:.12,clearcoat:.6}));
  const trim=mat(new T.MeshStandardMaterial({color:'#9d8464',metalness:.65,roughness:.38}));
  const dark=mat(new T.MeshStandardMaterial({color:'#6b7770',roughness:.8}));
@@ -91,7 +92,7 @@ export function buildArchitecture({scene,geo,mat,mesh,stone}){
  for(let i=0;i<7;i++){const s=outline(48,2.8,.4);const o=solid(s,.3,rose,3,10.6+i*.15,-106-i*6);const v=o.geometry.attributes.position;for(let j=0;j<v.count;j++){const x=v.getX(j);v.setZ(j,v.getZ(j)+3.8*Math.cos(x/24*Math.PI/2)+.6*Math.sin(x*.12+i*.6));}o.geometry.computeVertexNormals();}
  labels.push(label('03  /  AFTERGLOW',3,10.6,-146.3,0,9));
  // Two continuous land bridges connect the three unique buildings.
- function bridge(points,width){const curve=new T.CatmullRomCurve3(points.map(p=>new T.Vector3(...p))),pos=[],idx=[];for(let i=0;i<=100;i++){const t=i/100,p=curve.getPoint(t),d=curve.getTangent(t),n=new T.Vector3(-d.z,0,d.x).normalize();for(const sign of [-1,1])pos.push(p.x+n.x*width/2*sign,p.y,p.z+n.z*width/2*sign);if(i<100){const a=i*2;idx.push(a,a+1,a+2,a+1,a+3,a+2);}}const g=geo(new T.BufferGeometry());g.setAttribute('position',new T.Float32BufferAttribute(pos,3));g.setIndex(idx);g.computeVertexNormals();const o=mesh(g,chalk,0,0,0);o.material=mat(chalk.clone());o.material.side=T.DoubleSide;o.receiveShadow=true;}
+ function bridge(points,width){const curve=new T.CatmullRomCurve3(points.map(p=>new T.Vector3(...p))),pos=[],idx=[];for(let i=0;i<=100;i++){const t=i/100,p=curve.getPoint(t),d=curve.getTangent(t),n=new T.Vector3(-d.z,0,d.x).normalize();for(const sign of [-1,1])pos.push(p.x+n.x*width/2*sign,p.y,p.z+n.z*width/2*sign);if(i<100){const a=i*2;idx.push(a,a+1,a+2,a+1,a+3,a+2);}}const g=geo(new T.BufferGeometry());g.setAttribute('position',new T.Float32BufferAttribute(pos,3));g.setIndex(idx);g.computeVertexNormals();const o=mesh(g,chalk,0,0,0);o.material=mat(mineralMaterial('#f3e8db',.72));o.material.side=T.DoubleSide;o.receiveShadow=true;}
  bridge([[17,.5,-37],[32,.8,-38],[43,.6,-28],[65,.5,-32]],7);
  bridge([[65,.5,-89],[48,.8,-97],[26,.6,-92],[3,.5,-99]],8);
  // Non-repeating distant topography is a continuous displaced surface, not more gallery props.

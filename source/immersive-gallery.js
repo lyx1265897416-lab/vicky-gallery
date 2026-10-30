@@ -7,14 +7,14 @@ import {GTAOPass} from 'three/addons/postprocessing/GTAOPass.js';
 import {SMAAPass} from 'three/addons/postprocessing/SMAAPass.js';
 import {OutputPass} from 'three/addons/postprocessing/OutputPass.js';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
-import {ASSETS} from './assets.js';
+import {createContinuousSky,HORIZON_COLOR} from './continuous-environment.js';
 import {buildArchitecture} from './architecture-world.js';
 import {stepWalk} from './walk-motion.js';
 
 // Camera lives inside the architecture. All navigation moves the viewer, never the collection.
 export function createImmersiveGallery(renderer,environment,{textureFor,onFocus,onOpen}) {
  const canvas=renderer.domElement,scene=new T.Scene();
- scene.background=new T.Color('#e7dedb');scene.fog=new T.Fog('#e7dedb',85,240);
+ const skyEnvironment=createContinuousSky(renderer);scene.background=skyEnvironment.texture;scene.fog=new T.Fog(HORIZON_COLOR,85,240);
  scene.environment=environment;scene.environmentIntensity=.55;
  const camera=new T.PerspectiveCamera(57,1,.1,450);
  const collection=new T.Group();scene.add(collection);
@@ -32,18 +32,15 @@ export function createImmersiveGallery(renderer,environment,{textureFor,onFocus,
  function mesh(g,m,x,y,z,parent=scene){const o=new T.Mesh(g,m);o.position.set(x,y,z);parent.add(o);return o;}
  const cube=geo(new T.BoxGeometry(1,1,1));
  function box(w,h,d,x,y,z,m=plaster){const o=mesh(cube,m,x,y,z);o.scale.set(w,h,d);o.castShadow=true;o.receiveShadow=true;return o;}
- // The ocean and atmospheric dome follow the visitor; landmarks are recycled beyond the fog.
+ // The ocean follows the visitor; the seamless directional sky extends to infinity.
  const waterTime={value:0};
- const floor=mesh(geo(new T.PlaneGeometry(750,750)),mat(new T.MeshStandardMaterial({color:'#b8d2cd',roughness:.22,metalness:.26})),0,-.12,0);floor.rotation.x=-Math.PI/2;floor.receiveShadow=true;
- const sky=new T.TextureLoader().load(ASSETS.sky);sky.colorSpace=T.SRGBColorSpace;ownedTextures.add(sky);
- const dome=mesh(geo(new T.SphereGeometry(350,48,24)),mat(new T.MeshBasicMaterial({map:sky,side:T.BackSide,fog:false,color:'#f7e7df'})),0,0,0);
+ const floor=mesh(geo(new T.PlaneGeometry(1600,1600)),mat(new T.MeshStandardMaterial({color:'#b8d2cd',roughness:.22,metalness:.26})),0,-.12,0);floor.rotation.x=-Math.PI/2;floor.receiveShadow=true;
  const poolA=new T.PlaneGeometry(11.8,20.8).translate(4,17,0),poolB=new T.PlaneGeometry(22,50).translate(65,64,0);
  const reflection=new Reflector(geo(mergeGeometries([poolA,poolB])),{color:0xd7e5df,textureWidth:640,textureHeight:640,clipBias:.006});reflection.rotation.x=-Math.PI/2;reflection.position.y=.64;poolA.dispose();poolB.dispose();reflection.material.transparent=true;reflection.material.depthWrite=false;
  reflection.material.uniforms.uTime=waterTime;reflection.material.uniforms.uTouch={value:new T.Vector2()};reflection.material.uniforms.uTouchTime={value:-100};
  reflection.material.vertexShader='varying vec2 vPool;\n'+reflection.material.vertexShader.replace('void main() {','void main() { vPool=position.xy;');
  reflection.material.fragmentShader='uniform float uTime; uniform vec2 uTouch; uniform float uTouchTime; varying vec2 vPool;\n'+reflection.material.fragmentShader.replace('vec4 base = texture2DProj( tDiffuse, vUv );','vec2 uv=vUv.xy/vUv.w; float age=max(0.0,uTime-uTouchTime); float dist=length(vPool-uTouch); float ripple=sin(dist*5.0-age*8.0)*exp(-pow(dist-age*3.0,2.0)*.3)*exp(-age*.7)*.008; uv+=normalize(vPool-uTouch+vec2(.0001))*ripple; uv.x+=sin(uv.y*160.0+uTime*.7)*.0007; uv.y+=sin(uv.x*130.0+uTime*.45)*.0008; vec4 base=texture2D(tDiffuse,uv)*.4; base+=texture2D(tDiffuse,uv+vec2(.0018,0.0))*.15; base+=texture2D(tDiffuse,uv-vec2(.0018,0.0))*.15; base+=texture2D(tDiffuse,uv+vec2(0.0,.002))*.15; base+=texture2D(tDiffuse,uv-vec2(0.0,.002))*.15;').replace('blendOverlay( base.rgb, color ), 1.0','blendOverlay( base.rgb, color ), .58');scene.add(reflection);
- const stone=new T.TextureLoader().load(ASSETS.stone);stone.colorSpace=T.SRGBColorSpace;stone.wrapS=stone.wrapT=T.RepeatWrapping;stone.repeat.set(.17,.17);ownedTextures.add(stone);
- const architecture=buildArchitecture({scene,geo,mat,mesh,stone});
+ const architecture=buildArchitecture({scene,geo,mat,mesh});
  const sun=new T.DirectionalLight('#fff0dc',3);sun.position.set(-30,40,20);sun.castShadow=true;sun.shadow.mapSize.set(1536,1536);sun.shadow.camera.left=-45;sun.shadow.camera.right=45;sun.shadow.camera.top=45;sun.shadow.camera.bottom=-45;sun.shadow.camera.near=.5;sun.shadow.camera.far=130;sun.shadow.bias=-.0003;sun.shadow.normalBias=.04;scene.add(sun,sun.target);
  scene.add(new T.HemisphereLight('#f7e9df','#7c9387',1.05));
  // Soft pools of light and contact shadows, not expensive full-scene bloom.
@@ -170,7 +167,7 @@ export function createImmersiveGallery(renderer,environment,{textureFor,onFocus,
   if(flight){flight.age+=dt;const t=Math.min(1,flight.age/flight.duration),s=t*t*t*(t*(t*6-15)+10);camera.position.lerpVectors(flight.from,flight.to,s);if(flight.arc)camera.position.y+=Math.sin(s*Math.PI)*flight.arc;look.lerpVectors(flight.lookFrom,flight.lookTo,s);camera.lookAt(look);if(t===1){aim.copy(camera.position);const done=flight.done;flight=null;done?.();}}
   else{camera.position.copy(aim);if(focusLock!==null&&entries[focusLock])look.copy(entries[focusLock].g.position);else{yaw=T.MathUtils.damp(yaw,targetYaw,reduced?40:8,dt);pitch=T.MathUtils.damp(pitch,targetPitch,reduced?40:12,dt);look.set(camera.position.x+Math.sin(yaw)*Math.cos(pitch)*24,camera.position.y+Math.sin(pitch)*24,camera.position.z-Math.cos(yaw)*Math.cos(pitch)*24);}camera.lookAt(look);}
   camera.updateMatrixWorld();sun.position.set(camera.position.x-30,40,camera.position.z+20);sun.target.position.set(camera.position.x,0,camera.position.z-20);sun.target.updateMatrixWorld();
-  floor.position.set(camera.position.x,-.12,camera.position.z);reflection.position.set(0,.64,0);dome.position.copy(camera.position);waterTime.value=reduced?0:time;if(reduced)reflection.material.uniforms.uTouchTime.value=-100;
+  floor.position.set(camera.position.x,-.12,camera.position.z);reflection.position.set(0,.64,0);waterTime.value=reduced?0:time;if(reduced)reflection.material.uniforms.uTouchTime.value=-100;
   architecture.update(time,reduced);
   let region=0,regionDist=Infinity;architecture.regions.forEach((r,i)=>{const d=Math.hypot(camera.position.x-r.x,camera.position.z-r.z);if(d<regionDist){regionDist=d;region=i;}});
   if(region!==lastRegion){lastRegion=region;regionUI.querySelectorAll('button').forEach((b,i)=>b.setAttribute('aria-pressed',String(i===region)));document.querySelector('#gallery-ui').dataset.zone=region;}
@@ -183,6 +180,6 @@ export function createImmersiveGallery(renderer,environment,{textureFor,onFocus,
   measuredFrames++;measuredTime+=dt;if(measuredTime>=1){const dbg=document.querySelector('#debug');dbg.textContent=`${innerWidth}×${innerHeight} | ${Math.round(measuredFrames/measuredTime)} fps | ${renderer.info.render.calls} calls | ${renderer.info.render.triangles} triangles | immersive`;dbg.dataset.view='immersive';dbg.dataset.camera=[camera.position.x,camera.position.y,camera.position.z].map(x=>x.toFixed(2)).join(',');dbg.dataset.works=entries.length;dbg.dataset.orientation=[yaw,pitch].map(x=>x.toFixed(3)).join(',');dbg.dataset.walking=String(Math.hypot(velocity.x,velocity.z)>.05);measuredTime=0;measuredFrames=0;}
  }
  function activate(value){enabled=value;clearInput();hovered=-1;if(value&&!guideSeen)showGuide();else closeGuide(false);if(!value){flight=null;returnPose=null;focusLock=null;}resize();}
- function dispose(){listeners.forEach(([type,fn])=>canvas.removeEventListener(type,fn));removeEventListener('keydown',key);removeEventListener('keyup',keyUp);removeEventListener('blur',clearInput);document.removeEventListener('visibilitychange',hidden);document.removeEventListener('pointerdown',guardUI,true);document.removeEventListener('focusin',guardUI);walkUI.remove();guide.remove();guideButton.remove();joystick.remove();clearCollection();regionUI.remove();filterToggle.remove();architecture.dispose();ao.dispose();renderPass.dispose();output.dispose();smaa.dispose();composer.dispose();reflection.dispose();geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());ownedTextures.forEach(t=>t.dispose());sun.shadow.dispose();}
+ function dispose(){listeners.forEach(([type,fn])=>canvas.removeEventListener(type,fn));removeEventListener('keydown',key);removeEventListener('keyup',keyUp);removeEventListener('blur',clearInput);document.removeEventListener('visibilitychange',hidden);document.removeEventListener('pointerdown',guardUI,true);document.removeEventListener('focusin',guardUI);walkUI.remove();guide.remove();guideButton.remove();joystick.remove();clearCollection();regionUI.remove();filterToggle.remove();architecture.dispose();skyEnvironment.dispose();ao.dispose();renderPass.dispose();output.dispose();smaa.dispose();composer.dispose();reflection.dispose();geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());ownedTextures.forEach(t=>t.dispose());sun.shadow.dispose();}
  return {setItems,activate,resize,update,reset,focus:i=>fly(i,false),open:i=>fly(i,true),restore,zoom:delta=>{if(cancelFlight()){aim.z+=delta*Math.cos(targetYaw);aim.x-=delta*Math.sin(targetYaw);bound();}},dispose};
 }
