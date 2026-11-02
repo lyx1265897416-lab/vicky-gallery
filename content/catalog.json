@@ -809,6 +809,23 @@
       "coverLanguage": "en",
       "coverAspectRatio": "9:16",
       "themeColor": "#c9adf0"
+    },
+    {
+      "id": "rafael",
+      "title": "这次，不是演的",
+      "englishTitle": "Not Pretending This Time",
+      "description": "认识六年、合租三年的 Rafael 昨晚扮演了你的男友。今早，他承认：临时的是身份，喜欢你不是。",
+      "meta": "101 秒开场 · 第三视角 · 实时互动剧",
+      "previewUrl": "https://lyx1265897416-lab.github.io/rafael-not-pretending/",
+      "previewKind": "interactive-remote",
+      "cover": "content/covers/drama-rafael-en.svg",
+      "status": "已公开 · 开场预览",
+      "previewNote": "公开入口可观看完整开场。后续实时生成需要测试口令及在线服务。",
+      "kind": "drama",
+      "category": "互动剧集",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#dfa481"
     }
   ],
   "library": [
