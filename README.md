@@ -7,7 +7,7 @@ A personal portfolio for AIGC design, interactive creation and stories.
 ## Collections
 
 - 52 interactive works
-- 5 interactive series
+- 7 interactive series
 - 6 reusable creative method cards
 - Vicky Asset Repository
 - About Vicky and a personal journal (some media is still being collected)

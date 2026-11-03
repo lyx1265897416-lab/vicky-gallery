@@ -826,6 +826,23 @@
       "coverLanguage": "en",
       "coverAspectRatio": "9:16",
       "themeColor": "#dfa481"
+    },
+    {
+      "id": "dont-trust-this-feed",
+      "title": "别信这段直播",
+      "englishTitle": "Don’t Trust This Feed",
+      "description": "Lena 被困在大楼里，而你是她唯一的远程搭档。午夜之前，辨认真伪直播、收集证据，指引她找到出路。",
+      "meta": "第一视角悬疑 · 视频通话 · 证据解谜",
+      "previewUrl": "https://lyx1265897416-lab.github.io/dont-trust-this-feed/",
+      "previewKind": "interactive-remote",
+      "cover": "content/covers/drama-dont-trust-en.svg",
+      "status": "已公开 · 开场预览",
+      "previewNote": "公开入口可观看完整开场。后续实时生成需要测试口令及在线服务。",
+      "kind": "drama",
+      "category": "互动剧集",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#9dd8bd"
     }
   ],
   "library": [
