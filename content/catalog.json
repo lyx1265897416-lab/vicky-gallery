@@ -843,6 +843,23 @@
       "coverLanguage": "en",
       "coverAspectRatio": "9:16",
       "themeColor": "#9dd8bd"
+    },
+    {
+      "id": "meet-again-live",
+      "title": "今天，再喜欢我一次 · 实时互动",
+      "englishTitle": "Meet Me, Again · Live",
+      "description": "海边温室的院门外，来修招牌的 Rowan 像是早已认识你。点选回应，或自由输入你想说的话，让这场相遇实时继续。",
+      "meta": "实时互动 · 开放式 · 选项与自由输入",
+      "previewUrl": "https://lyx1265897416-lab.github.io/meet-me-again-live/",
+      "previewKind": "interactive-remote",
+      "cover": "content/covers/drama-meet-again-live-en.svg",
+      "status": "已公开 · 开场预览",
+      "previewNote": "公开入口可观看完整开场。后续实时生成需要测试口令及在线服务。",
+      "kind": "drama",
+      "category": "互动剧集",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#e8d5a8"
     }
   ],
   "library": [
