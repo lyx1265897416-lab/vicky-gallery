@@ -860,6 +860,23 @@
       "coverLanguage": "en",
       "coverAspectRatio": "9:16",
       "themeColor": "#e8d5a8"
+    },
+    {
+      "id": "four-liars-one-island",
+      "title": "三真四假",
+      "englishTitle": "Four Liars, One Island",
+      "description": "七位男嘉宾登上海岛恋综，三位真心寻找爱情，四位为奖金伪装身份。今晚选谁做搭档？用选项或自由输入试探真心，让故事实时展开。",
+      "meta": "海岛恋综 · 实时互动 · 开放式",
+      "previewUrl": "https://lyx1265897416-lab.github.io/four-liars-one-island/",
+      "previewKind": "interactive-remote",
+      "cover": "content/covers/drama-four-liars-en.svg",
+      "status": "已公开 · 开场预览",
+      "previewNote": "公开入口可观看完整开场。后续实时生成需要测试口令及在线服务。",
+      "kind": "drama",
+      "category": "互动剧集",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#efbd71"
     }
   ],
   "library": [
