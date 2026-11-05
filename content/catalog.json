@@ -877,6 +877,23 @@
       "coverLanguage": "en",
       "coverAspectRatio": "9:16",
       "themeColor": "#efbd71"
+    },
+    {
+      "id": "sea-prince-live",
+      "title": "人鱼王子的假新娘 · 实时版",
+      "englishTitle": "The Sea Prince’s Almost Bride · Live",
+      "description": "为找回被潮水卷走的好友，你跟随 Rian 进入海下王宫。他却当众宣布你是未来的新娘。接受这场假扮，还是追问他的用意？用选项或自由输入，让故事实时继续。",
+      "meta": "海底奇幻 · 实时互动 · 开放式",
+      "previewUrl": "https://lyx1265897416-lab.github.io/sea-prince-almost-bride-live/",
+      "previewKind": "interactive-remote",
+      "cover": "content/covers/drama-sea-prince-live-en.svg",
+      "status": "已公开 · 开场预览",
+      "previewNote": "公开入口可观看完整开场。后续实时生成需要测试口令及在线服务。",
+      "kind": "drama",
+      "category": "互动剧集",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#b9e4f1"
     }
   ],
   "library": [
