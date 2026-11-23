@@ -764,6 +764,24 @@
       "themeColor": "#ffae58"
     },
     {
+      "id": "cat-who-inherited",
+      "title": "继承一切的猫",
+      "englishTitle": "The Cat Who Inherited Everything",
+      "description": "富豪把全部遗产留给了她的猫，而你成为了它的照料者。在庄园日常与深夜秘密之间，通过对话选择、动作互动与线索探索，和伯爵一起揭开这份遗产背后的故事。",
+      "meta": "治愈悬疑 · 4 集分支剧情 · 选择与动作互动",
+      "previewUrl": "https://lyx1265897416-lab.github.io/cat-who-inherited-play/player/index.html?quality=original-20261123",
+      "previewKind": "interactive-remote",
+      "cover": "content/covers/drama-cat-who-inherited-en.svg",
+      "status": "已公开 · 4 集可体验",
+      "kind": "drama",
+      "category": "互动剧集",
+      "coverLanguage": "en",
+      "coverAspectRatio": "9:16",
+      "themeColor": "#dec293",
+      "previewAspectRatio": "9:16",
+      "previewLanguageParam": "lang"
+    },
+    {
       "id": "meet-again",
       "title": "今天，再喜欢我一次",
       "englishTitle": "Meet Me, Again",
@@ -911,24 +929,6 @@
       "coverLanguage": "en",
       "coverAspectRatio": "9:16",
       "themeColor": "#b9e4f1"
-    },
-    {
-      "id": "cat-who-inherited",
-      "title": "继承一切的猫",
-      "englishTitle": "The Cat Who Inherited Everything",
-      "description": "富豪把全部遗产留给了她的猫，而你成为了它的照料者。在庄园日常与深夜秘密之间，通过对话选择、动作互动与线索探索，和伯爵一起揭开这份遗产背后的故事。",
-      "meta": "治愈悬疑 · 4 集分支剧情 · 选择与动作互动",
-      "previewUrl": "https://lyx1265897416-lab.github.io/cat-who-inherited-play/player/index.html?quality=original-20261123",
-      "previewKind": "interactive-remote",
-      "cover": "content/covers/drama-cat-who-inherited-en.svg",
-      "status": "已公开 · 4 集可体验",
-      "kind": "drama",
-      "category": "互动剧集",
-      "coverLanguage": "en",
-      "coverAspectRatio": "9:16",
-      "themeColor": "#dec293",
-      "previewAspectRatio": "9:16",
-      "previewLanguageParam": "lang"
     }
   ],
   "library": [
