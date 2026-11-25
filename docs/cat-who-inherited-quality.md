@@ -10,3 +10,7 @@ Added to the bilingual gallery on 2026-11-23 with an English 9:16 cover and the 
 - Browser check at desktop and 390×844: opening, first transition and first choice A played at 1080×1920; both A/B clips were already buffered when choices appeared. Choice A had 16.54 seconds buffered immediately after selection.
 
 Playback depends on connection throughput. These changes do not promise stall-free playback on every network; quality never silently drops to a compressed alternate.
+
+## Update verified 2026-11-24
+
+The public player matches release 9f25c4f and contains five episodes (episode 5: The Review). The gallery remains in position three. Updated the bilingual episode count and English cover to five episodes. The public story, player and original-media manifest match the published project checkout. Browser playback of episode 5 reports 1080×1920. The 17 episode-5 video/idle files match their local masters by SHA-256 and CDN MD5/byte length, with no bitrate fallback.
