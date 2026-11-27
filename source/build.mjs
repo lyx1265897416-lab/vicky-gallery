@@ -18,8 +18,8 @@ try {
   await writeFile(new URL(item.download.replace(/\.md$/,'.en.md'),out),content);
  }
  const imageData=async path=>{const bytes=await readFile(new URL(path,out));return 'data:image/'+(path.endsWith('.svg')?'svg+xml':path.endsWith('.png')?'png':'jpeg')+';base64,'+bytes.toString('base64');};
- for(const [key,prefix] of [['waku','waku-'],['dramas','drama-']])for(const item of catalogue[key]){
-  try{item.texture=await imageData(key==='dramas'?item.cover:'content/thumbs/'+prefix+item.id+'.jpg');}catch{item.texture=await imageData(item.cover);}
+ for(const [key,prefix] of [['waku','waku-'],['dramas','drama-'],['library','']])for(const item of catalogue[key]){
+  try{item.texture=await imageData(key!=='waku'?item.cover:'content/thumbs/'+prefix+item.id+'.jpg');}catch{item.texture=await imageData(item.cover);}
  }
  catalogue.profile.texture=await imageData(catalogue.profile.portrait);
  await writeFile(new URL('./portfolio-data.js',import.meta.url),'export const DATA='+JSON.stringify(catalogue)+';');

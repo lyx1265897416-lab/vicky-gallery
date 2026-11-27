@@ -967,7 +967,9 @@
       "source": "vicky-create/SKILL.md",
       "kind": "library",
       "number": 1,
-      "download": "content/library/vicky-create.md"
+      "download": "content/library/vicky-create.md",
+      "cover": "content/covers/workshop/vicky-create-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "vicky-drama",
@@ -1003,7 +1005,9 @@
       "source": "vicky-drama/SKILL.md",
       "kind": "library",
       "number": 2,
-      "download": "content/library/vicky-drama.md"
+      "download": "content/library/vicky-drama.md",
+      "cover": "content/covers/workshop/vicky-drama-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "vicky-video",
@@ -1035,7 +1039,9 @@
       "source": "vicky-video/SKILL.md",
       "kind": "library",
       "download": "content/library/vicky-video.md",
-      "number": 3
+      "number": 3,
+      "cover": "content/covers/workshop/vicky-video-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "vicky-realtime",
@@ -1067,7 +1073,9 @@
       "source": "vicky-realtime/SKILL.md",
       "kind": "library",
       "download": "content/library/vicky-realtime.md",
-      "number": 4
+      "number": 4,
+      "cover": "content/covers/workshop/vicky-realtime-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "vicky-drama-intro",
@@ -1099,7 +1107,9 @@
       "source": "vicky-drama-intro/SKILL.md",
       "kind": "library",
       "download": "content/library/vicky-drama-intro.md",
-      "number": 5
+      "number": 5,
+      "cover": "content/covers/workshop/vicky-drama-intro-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "vicky-drama-momentum",
@@ -1131,7 +1141,9 @@
       "source": "vicky-drama-momentum/SKILL.md",
       "kind": "library",
       "download": "content/library/vicky-drama-momentum.md",
-      "number": 6
+      "number": 6,
+      "cover": "content/covers/workshop/vicky-drama-momentum-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "ai-drama-character-design",
@@ -1163,7 +1175,9 @@
       "source": "ai-drama-character-design/SKILL.md",
       "kind": "library",
       "download": "content/library/ai-drama-character-design.md",
-      "number": 7
+      "number": 7,
+      "cover": "content/covers/workshop/ai-drama-character-design-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "ai-acting-direction",
@@ -1195,7 +1209,9 @@
       "source": "ai-acting-direction/SKILL.md",
       "kind": "library",
       "download": "content/library/ai-acting-direction.md",
-      "number": 8
+      "number": 8,
+      "cover": "content/covers/workshop/ai-acting-direction-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "bianju",
@@ -1227,7 +1243,9 @@
       "source": "bianju/SKILL.md",
       "kind": "library",
       "download": "content/library/bianju.md",
-      "number": 9
+      "number": 9,
+      "cover": "content/covers/workshop/bianju-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "daoyan",
@@ -1259,7 +1277,9 @@
       "source": "daoyan/SKILL.md",
       "kind": "library",
       "download": "content/library/daoyan.md",
-      "number": 10
+      "number": 10,
+      "cover": "content/covers/workshop/daoyan-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "video-harness",
@@ -1291,7 +1311,9 @@
       "source": "vicky-drama/scripts/video-harness.mjs",
       "kind": "library",
       "number": 11,
-      "download": "content/library/video-harness.md"
+      "download": "content/library/video-harness.md",
+      "cover": "content/covers/workshop/video-harness-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "response-agent",
@@ -1323,7 +1345,9 @@
       "source": "vicky-drama/references/video-agent-system-prompt.md",
       "kind": "library",
       "number": 12,
-      "download": "content/library/response-agent.md"
+      "download": "content/library/response-agent.md",
+      "cover": "content/covers/workshop/response-agent-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "video-pe",
@@ -1355,7 +1379,9 @@
       "source": "vicky-drama/references/video-prompt-method.md",
       "kind": "library",
       "number": 13,
-      "download": "content/library/video-pe.md"
+      "download": "content/library/video-pe.md",
+      "cover": "content/covers/workshop/video-pe-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "creative-qa",
@@ -1387,7 +1413,9 @@
       "source": "vicky-drama/references/creation-delivery-checklist.md",
       "kind": "library",
       "number": 14,
-      "download": "content/library/creative-qa.md"
+      "download": "content/library/creative-qa.md",
+      "cover": "content/covers/workshop/creative-qa-v1.jpg",
+      "previewAspectRatio": "2:3"
     },
     {
       "id": "realtime-video-evaluation",
@@ -1418,7 +1446,9 @@
       "previewUrl": "https://lyx1265897416-lab.github.io/realtime-drama-test-log/",
       "previewNote": "打开原评测网页，查看完整视频与测试记录；内容随原站更新。",
       "kind": "library",
-      "number": 15
+      "number": 15,
+      "cover": "content/covers/workshop/realtime-video-evaluation-v1.jpg",
+      "previewAspectRatio": "2:3"
     }
   ],
   "profile": {
