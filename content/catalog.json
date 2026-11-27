@@ -968,7 +968,7 @@
       "kind": "library",
       "number": 1,
       "download": "content/library/vicky-create.md",
-      "cover": "content/covers/workshop/vicky-create-v1.jpg",
+      "cover": "content/covers/workshop/vicky-create-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1006,7 +1006,7 @@
       "kind": "library",
       "number": 2,
       "download": "content/library/vicky-drama.md",
-      "cover": "content/covers/workshop/vicky-drama-v1.jpg",
+      "cover": "content/covers/workshop/vicky-drama-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1040,7 +1040,7 @@
       "kind": "library",
       "download": "content/library/vicky-video.md",
       "number": 3,
-      "cover": "content/covers/workshop/vicky-video-v1.jpg",
+      "cover": "content/covers/workshop/vicky-video-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1074,7 +1074,7 @@
       "kind": "library",
       "download": "content/library/vicky-realtime.md",
       "number": 4,
-      "cover": "content/covers/workshop/vicky-realtime-v1.jpg",
+      "cover": "content/covers/workshop/vicky-realtime-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1108,7 +1108,7 @@
       "kind": "library",
       "download": "content/library/vicky-drama-intro.md",
       "number": 5,
-      "cover": "content/covers/workshop/vicky-drama-intro-v1.jpg",
+      "cover": "content/covers/workshop/vicky-drama-intro-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1142,7 +1142,7 @@
       "kind": "library",
       "download": "content/library/vicky-drama-momentum.md",
       "number": 6,
-      "cover": "content/covers/workshop/vicky-drama-momentum-v1.jpg",
+      "cover": "content/covers/workshop/vicky-drama-momentum-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1176,7 +1176,7 @@
       "kind": "library",
       "download": "content/library/ai-drama-character-design.md",
       "number": 7,
-      "cover": "content/covers/workshop/ai-drama-character-design-v1.jpg",
+      "cover": "content/covers/workshop/ai-drama-character-design-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1210,7 +1210,7 @@
       "kind": "library",
       "download": "content/library/ai-acting-direction.md",
       "number": 8,
-      "cover": "content/covers/workshop/ai-acting-direction-v1.jpg",
+      "cover": "content/covers/workshop/ai-acting-direction-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1244,7 +1244,7 @@
       "kind": "library",
       "download": "content/library/bianju.md",
       "number": 9,
-      "cover": "content/covers/workshop/bianju-v1.jpg",
+      "cover": "content/covers/workshop/bianju-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1278,7 +1278,7 @@
       "kind": "library",
       "download": "content/library/daoyan.md",
       "number": 10,
-      "cover": "content/covers/workshop/daoyan-v1.jpg",
+      "cover": "content/covers/workshop/daoyan-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1312,7 +1312,7 @@
       "kind": "library",
       "number": 11,
       "download": "content/library/video-harness.md",
-      "cover": "content/covers/workshop/video-harness-v1.jpg",
+      "cover": "content/covers/workshop/video-harness-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1346,7 +1346,7 @@
       "kind": "library",
       "number": 12,
       "download": "content/library/response-agent.md",
-      "cover": "content/covers/workshop/response-agent-v1.jpg",
+      "cover": "content/covers/workshop/response-agent-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1380,7 +1380,7 @@
       "kind": "library",
       "number": 13,
       "download": "content/library/video-pe.md",
-      "cover": "content/covers/workshop/video-pe-v1.jpg",
+      "cover": "content/covers/workshop/video-pe-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1414,7 +1414,7 @@
       "kind": "library",
       "number": 14,
       "download": "content/library/creative-qa.md",
-      "cover": "content/covers/workshop/creative-qa-v1.jpg",
+      "cover": "content/covers/workshop/creative-qa-v2.svg",
       "previewAspectRatio": "2:3"
     },
     {
@@ -1447,7 +1447,7 @@
       "previewNote": "打开原评测网页，查看完整视频与测试记录；内容随原站更新。",
       "kind": "library",
       "number": 15,
-      "cover": "content/covers/workshop/realtime-video-evaluation-v1.jpg",
+      "cover": "content/covers/workshop/realtime-video-evaluation-v2.svg",
       "previewAspectRatio": "2:3"
     }
   ],
