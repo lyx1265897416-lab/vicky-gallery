@@ -13,6 +13,7 @@ try {
  const catalogue=JSON.parse(await readFile(new URL('content/catalog.json',out),'utf8'));
  // Method downloads match the currently selected interface language.
  for(const item of catalogue.library){
+  if(!item.download)continue;
   const content='# '+item.englishTitle+'\n\n'+translateFor(item.description)+'\n\n'+item.sections.map(s=>'## '+translateFor(s.title)+'\n\n'+translateFor(s.text)).join('\n\n')+'\n\n## Template\n\n```text\n'+translateFor(item.template)+'\n```\n\n---\nA showcase edition of Vicky’s creative methods.\n';
   await writeFile(new URL(item.download.replace(/\.md$/,'.en.md'),out),content);
  }

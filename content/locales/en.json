@@ -302,5 +302,18 @@
   "治愈悬疑 · 4 集分支剧情 · 选择与动作互动": "Cozy mystery · 4 branching episodes · Choices and gesture interactions",
   "已公开 · 4 集可体验": "Public · 4 playable episodes",
   "治愈悬疑 · 5 集分支剧情 · 选择与动作互动": "Cozy mystery · 5 branching episodes · Choices and gesture interactions",
-  "已公开 · 5 集可体验": "Public · 5 playable episodes"
+  "已公开 · 5 集可体验": "Public · 5 playable episodes",
+  "Realtime 视频评测": "Realtime Video Evaluation",
+  "从完整成片到逐轮生成记录，对比互动回应、画面表现、生成耗时与评分结果。": "Compare interactive responses, visual performance, generation latency and scores, from complete films to individual generation rounds.",
+  "视频对照": "Video comparisons",
+  "生成耗时": "Generation latency",
+  "评分记录": "Evaluation records",
+  "先看成片，再看每一轮": "Watch the film, then inspect each round",
+  "按剧集浏览预设剧情与实时片段组成的完整视频，再查看逐条输入、台词、生成片段与通过或失败标记。": "Browse complete films combining scripted and realtime scenes, then inspect individual inputs, dialogue, generated clips and pass/fail marks.",
+  "对比方案与等待时间": "Compare approaches and waiting time",
+  "查看不同生成时长方案的实测耗时与内容表现；测试条件和统计口径随记录一起保留。": "Explore measured latency and content quality across generation-duration strategies, with test conditions and measurement definitions preserved.",
+  "把判断留成可复查的证据": "Keep the evidence behind each judgment",
+  "结合指令兑现、角色表演、视听衔接与画面错误记录，查看评分规则和各版本评测结果。": "Review scoring criteria and version comparisons alongside instruction fulfillment, acting, audiovisual continuity and visual-error records.",
+  "打开原评测网页，查看完整视频与测试记录；内容随原站更新。": "Open the original evaluation website for full videos and test records. Its content stays up to date with the source site.",
+  "打开评测网页 ↗": "Open evaluation website ↗"
 }

@@ -1124,6 +1124,37 @@
       "kind": "library",
       "number": 6,
       "download": "content/library/creative-qa.md"
+    },
+    {
+      "id": "realtime-video-evaluation",
+      "title": "Realtime 视频评测",
+      "englishTitle": "Realtime Video Evaluation",
+      "category": "测试",
+      "glyph": "◉",
+      "description": "从完整成片到逐轮生成记录，对比互动回应、画面表现、生成耗时与评分结果。",
+      "tags": [
+        "视频对照",
+        "生成耗时",
+        "评分记录"
+      ],
+      "sections": [
+        {
+          "title": "先看成片，再看每一轮",
+          "text": "按剧集浏览预设剧情与实时片段组成的完整视频，再查看逐条输入、台词、生成片段与通过或失败标记。"
+        },
+        {
+          "title": "对比方案与等待时间",
+          "text": "查看不同生成时长方案的实测耗时与内容表现；测试条件和统计口径随记录一起保留。"
+        },
+        {
+          "title": "把判断留成可复查的证据",
+          "text": "结合指令兑现、角色表演、视听衔接与画面错误记录，查看评分规则和各版本评测结果。"
+        }
+      ],
+      "previewUrl": "https://lyx1265897416-lab.github.io/realtime-drama-test-log/",
+      "previewNote": "打开原评测网页，查看完整视频与测试记录；内容随原站更新。",
+      "kind": "library",
+      "number": 7
     }
   ],
   "profile": {
