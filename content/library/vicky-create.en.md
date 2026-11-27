@@ -14,6 +14,10 @@ Use real assets to establish materials, lighting and motion. Generation, preview
 
 Consider mobile viewports, safe areas, lifecycle behavior, bilingual content, assets and QA criteria from the first version. Improve the work while preserving what has already been approved.
 
+## From a creative brief to continuous delivery
+
+Preserve the original idea and approved version, including bilingual delivery, platform integration and QA from the first build. Continue across tools from the current project and validation records.
+
 ## Template
 
 ```text

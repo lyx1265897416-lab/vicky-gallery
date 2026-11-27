@@ -14,6 +14,10 @@ Preserve approved identities, clothing, props, positions, eyelines and sound sou
 
 Scripts, structural checks and extracted frames each have a purpose, but cannot replace watching in motion. Rejoin revisions to the complete series and check sound, performance and transitions after choices.
 
+## Select methods for each production stage
+
+Connect writing, character design, directing and acting guidance through one creative entry point. Resume from approved assets and current feedback, preserving accepted parts during focused revisions.
+
 ## Template
 
 ```text

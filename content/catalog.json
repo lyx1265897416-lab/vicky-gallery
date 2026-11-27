@@ -957,6 +957,10 @@
         {
           "title": "从第一版考虑交付",
           "text": "移动视口、安全区、生命周期、双语、素材和 QA 判据同时进入第一版。局部改进沿着已确认的作品继续。"
+        },
+        {
+          "title": "从创作合同走到连续交付",
+          "text": "保留最初想法与已确认版本，从第一版纳入双语、平台适配和 QA。跨客户端继续创作时，读取当前现场与验证记录，让更新沿同一作品推进。"
         }
       ],
       "template": "项目：\n用户进入的情境：\n核心动作：\n即时可见反馈：\n状态如何变化：\n用户带走的结果：\n视觉 / 声音 / 动态规则：\n本轮可观察的验收标准：",
@@ -989,6 +993,10 @@
         {
           "title": "以连续体验验收",
           "text": "脚本、结构检查和抽帧各有用途，但不能代替动态观看。局部返修接回完整剧集，确认声音、表演与选择后的衔接。"
+        },
+        {
+          "title": "按阶段调用创作方法",
+          "text": "将编剧、角色设计、导演和表演指导接入同一创作入口。已有项目先恢复已确认资产与最新反馈，局部返修保住其余已认可的体验。"
         }
       ],
       "template": "本段入口状态：\n用户收到的信息：\n选择的职责：\n分支 A 的可见回应 / 出口：\n分支 B 的可见回应 / 出口：\n合流需要满足的条件：\n视听验收点：",
@@ -996,6 +1004,262 @@
       "kind": "library",
       "number": 2,
       "download": "content/library/vicky-drama.md"
+    },
+    {
+      "id": "vicky-video",
+      "title": "让剧情像生活一样发生",
+      "englishTitle": "Vicky Video",
+      "category": "Skill",
+      "glyph": "▷",
+      "description": "从《日落岛》和《继承一切的猫》的制作与返修中沉淀，串起真人质感表演、原生对白、连续性和互动视频交付。",
+      "tags": [
+        "剧情节点",
+        "原生对白",
+        "成片返修"
+      ],
+      "sections": [
+        {
+          "title": "按剧情节点组织连续表演",
+          "text": "一个节点承担一段完整的情绪与行动，内部按镜头职责安排景别和切镜。让接收、行动、反应发生在连续的表演里。"
+        },
+        {
+          "title": "让人物在做事中表达情绪",
+          "text": "绑定已确认的人物、定装、场景、道具和声音参考。台词、环境声与动作一起设计，用身体、手上的事和细小反应承接情绪。"
+        },
+        {
+          "title": "从审片接到完整体验",
+          "text": "动态核对表演、对白、口型、字幕与前后接镜。返修接回实际剧情，检查选择后的衔接、待机循环和原片播放。"
+        }
+      ],
+      "template": "剧情节点与情绪变化：\n角色 / 定装 / 场景 / 声音参考：\n每镜职责与可见行动：\n对白、停顿与环境声：\n前镜出口 / 本镜起终状态：\n动态审片发现与返修范围：\n字幕、待机与互动交付检查：",
+      "source": "vicky-video/SKILL.md",
+      "kind": "library",
+      "download": "content/library/vicky-video.md",
+      "number": 3
+    },
+    {
+      "id": "vicky-realtime",
+      "title": "让一句话接成下一场戏",
+      "englishTitle": "Realtime Direction",
+      "category": "Skill",
+      "glyph": "↝",
+      "description": "把观众输入接入编剧、导演、生成与复核链路，让回应真正发生在画面里，并保留每轮测试依据。",
+      "tags": [
+        "自由输入",
+        "实时演绎",
+        "逐轮复盘"
+      ],
+      "sections": [
+        {
+          "title": "把输入变成可见的回应",
+          "text": "分清预设剧情中插入实时片段与开放式续演两种链路。每轮从理解用户意图开始，组织回应、演绎与下一步行动。"
+        },
+        {
+          "title": "用真实状态保持连续",
+          "text": "角色资料、已发生的剧情、场景和素材状态一起进入导演层。把关键约束落实到结构化计划与执行校验，避免只靠提示词提醒。"
+        },
+        {
+          "title": "把画面、意图和等待一起复盘",
+          "text": "逐轮记录画面问题、用户意图是否兑现、生成耗时与实际观看效果。时长和并发方案按当前内容及实测选择，保留版本与对比条件。"
+        }
+      ],
+      "template": "链路：预设插入 / 开放续演\n当前角色与场景状态：\n用户输入与实际意图：\n本轮可见回应 / 行动 / 后续钩子：\n生成方案与耗时口径：\n实际视频结果与错误：\n下一轮继承的已确认状态：",
+      "source": "vicky-realtime/SKILL.md",
+      "kind": "library",
+      "download": "content/library/vicky-realtime.md",
+      "number": 4
+    },
+    {
+      "id": "vicky-drama-intro",
+      "title": "让观众愿意走进故事",
+      "englishTitle": "Story Openings",
+      "category": "Skill",
+      "glyph": "◌",
+      "description": "把短剧调研中的情绪、关系和冲突转成互动开场，让用户知道自己是谁、为什么在意、此刻能做什么。",
+      "tags": [
+        "参与动机",
+        "开场诊断",
+        "首次互动"
+      ],
+      "sections": [
+        {
+          "title": "从想看转成想参与",
+          "text": "提炼参考内容里的情绪需求和关系张力，决定用户在故事里的位置。互动必须带来可见回应，而不是只给原有片段加按钮。"
+        },
+        {
+          "title": "用五个问题检查开场",
+          "text": "我是谁、我在哪、我要做什么、为什么在意、为什么现在轮到我？从具体画面和对白找证据，区分局部表达不清与入口动机不成立。"
+        },
+        {
+          "title": "把行动权交到用户手上",
+          "text": "先带入眼前处境，再停在能回应的位置。交接用户与角色各自知道的信息、当前状态和行动范围，并验证顺势、质疑和自由表达的首轮回应。"
+        }
+      ],
+      "template": "用户身份与关系：\n入口事件与眼前冲突：\n用户为什么在意：\n开场五问的画面 / 对白证据：\n首次可采取的行动：\n不同输入的可见回应：\n制作资产与交接状态：",
+      "source": "vicky-drama-intro/SKILL.md",
+      "kind": "library",
+      "download": "content/library/vicky-drama-intro.md",
+      "number": 5
+    },
+    {
+      "id": "vicky-drama-momentum",
+      "title": "让角色自己推动故事",
+      "englishTitle": "Narrative Momentum",
+      "category": "Skill",
+      "glyph": "↗",
+      "description": "把角色欲望、主动行动与选择后果连接起来，减少机械顺从和重复拉扯，让多轮互动持续有变化。",
+      "tags": [
+        "角色主动性",
+        "状态记忆",
+        "剧情回报"
+      ],
+      "sections": [
+        {
+          "title": "把人设形容词变成行动",
+          "text": "明确角色现在要什么、为什么此刻行动、惯用什么策略、什么会让他改变策略。角色在回应用户时仍有自己的动机与知识边界。"
+        },
+        {
+          "title": "用后果制造新的局面",
+          "text": "事件需要前提、动机、行动、介入点和完成条件。承接之前选择的后果，兑现铺垫的期待；关系改变后不靠失忆或重复误会重置。"
+        },
+        {
+          "title": "同时验证主动性与选择差异",
+          "text": "检查用户输入很少时故事是否仍能推进，以及用户认真表达时是否出现不同结果。区分文本推演、视频生成、动态审片与实际用户测试。"
+        }
+      ],
+      "template": "角色当前目标与策略：\n继承的事实 / 承诺 / 未完成行动：\n主动事件与触发条件：\n用户介入点：\n可见后果与情绪回报：\n低输入 / 拒绝 / 新方向的回应：\n状态变化与验证证据：",
+      "source": "vicky-drama-momentum/SKILL.md",
+      "kind": "library",
+      "download": "content/library/vicky-drama-momentum.md",
+      "number": 6
+    },
+    {
+      "id": "ai-drama-character-design",
+      "title": "让角色在每个镜头里成立",
+      "englishTitle": "Character Design",
+      "category": "Skill",
+      "glyph": "◇",
+      "description": "从受众与题材证据出发，设计角色外形、群像差异和身份母版，并检查在表演与连续镜头中的稳定性。",
+      "tags": [
+        "视觉身份",
+        "群像差异",
+        "角色母版"
+      ],
+      "sections": [
+        {
+          "title": "先定义角色的视觉任务",
+          "text": "把第一眼需要传达的身份、气质与戏剧张力说清楚。区分受众事实、创作假设和个人审美，再比较有实质差异的造型方向。"
+        },
+        {
+          "title": "建立可区分的角色与母版",
+          "text": "用脸部轮廓、眉眼、发型、体态、服装结构和材质建立差异。身份、定装与风格参考各有职责，避免复杂拼图互相污染。"
+        },
+        {
+          "title": "把静态好看放进镜头验证",
+          "text": "检查侧面、表情、说话、普通室内光和剧情动作下的辨识度。保留版本与选择理由，不把设计假设写成已经验证的受众结论。"
+        }
+      ],
+      "template": "角色视觉任务与题材：\n受众依据 / 设计假设：\n方向差异与识别点：\n身份 / 服装 / 风格参考：\n群像区分与连续性约束：\n镜头验证结果：",
+      "source": "ai-drama-character-design/SKILL.md",
+      "kind": "library",
+      "download": "content/library/ai-drama-character-design.md",
+      "number": 7
+    },
+    {
+      "id": "ai-acting-direction",
+      "title": "把表演从僵硬变成回应",
+      "englishTitle": "Acting Direction",
+      "category": "Skill",
+      "glyph": "◐",
+      "description": "以人物目标和对手刺激组织微表情、动作与声音，用可观察的表演过程连接前后镜头。",
+      "tags": [
+        "对手戏",
+        "微表情",
+        "表演连续性"
+      ],
+      "sections": [
+        {
+          "title": "先确定人物要对方做什么",
+          "text": "每镜明确职责、目标、阻力和策略。新信息或策略失效时才换拍，让听者的接收与反应也成为表演的一部分。"
+        },
+        {
+          "title": "把情绪写成可见过程",
+          "text": "从刺激、接收、可读反应到主动回应和余波，安排少量准确动作。将视线、持物、站位、光线和声音接到上一镜的实际末态。"
+        },
+        {
+          "title": "按证据选择返修方式",
+          "text": "区分观察到的问题与可能原因，检查连贯性、准确性和合理性。按项目约束选择补镜或重做等处理，修后核对保护区、接缝和相邻镜头。"
+        }
+      ],
+      "template": "镜头职责：\n角色目标 / 阻力 / 策略：\n刺激与可见反应：\n对白、声音和停顿：\n起终状态与前后连续性：\n实际证据 / 问题 / 返修范围：",
+      "source": "ai-acting-direction/SKILL.md",
+      "kind": "library",
+      "download": "content/library/ai-acting-direction.md",
+      "number": 8
+    },
+    {
+      "id": "bianju",
+      "title": "把灵感写成有因果的故事",
+      "englishTitle": "Story Development",
+      "category": "Skill",
+      "glyph": "✎",
+      "description": "把故事构思、世界观、人物动机、分集与对白组织到同一工作流，按任务调用专业资料并保留创作交接。",
+      "tags": [
+        "人物动机",
+        "情节因果",
+        "剧本迭代"
+      ],
+      "sections": [
+        {
+          "title": "从故事承诺与矛盾出发",
+          "text": "先明确题材、受众与核心矛盾，再让世界规则、人物欲望和选择代价共同制造故事。已有设定优先沿用。"
+        },
+        {
+          "title": "让行动引起后果",
+          "text": "分集以行动、后果和新信息推动决定；钩子需要兑现。对白服务人物与情境，用可表演的行为表达情绪。"
+        },
+        {
+          "title": "把修订接回同一份故事",
+          "text": "按修改范围复核动机、因果、设定、伏笔和节奏。保留已定决定、未解问题与下一步交接，区分引用资料和新增创作。"
+        }
+      ],
+      "template": "故事承诺与核心矛盾：\n世界规则与选择代价：\n人物欲望 / 弱点 / 秘密：\n行动 → 后果 → 新决定：\n分集钩子与兑现：\n本轮修订与交接：",
+      "source": "bianju/SKILL.md",
+      "kind": "library",
+      "download": "content/library/bianju.md",
+      "number": 9
+    },
+    {
+      "id": "daoyan",
+      "title": "把故事转成可执行的镜头",
+      "englishTitle": "Screen Direction",
+      "category": "Skill",
+      "glyph": "⌑",
+      "description": "将已定剧本衔接到视觉设定、资产、分镜、调度、声音与模型提示词，让每个镜头都有叙事职责。",
+      "tags": [
+        "视听方案",
+        "镜头调度",
+        "制作交接"
+      ],
+      "sections": [
+        {
+          "title": "沿用已确认的故事与资产",
+          "text": "读取当前剧本、角色、参考和交接记录。尊重已定因果、关键台词与揭示顺序，将必要的剧情调整明确列为建议。"
+        },
+        {
+          "title": "把镜头语言写成执行信息",
+          "text": "安排景别、位置、运动、视线、动作和声音，说明每镜传递的信息或情绪。视觉连续性与人物动机分别建立，再接到同一场戏。"
+        },
+        {
+          "title": "按实际模型与交付范围落地",
+          "text": "按明确的模型版本编写提示词与参考职责，核对时长、声音、资产依赖和交付形态。把分镜方案、生成结果与已验收成片分开记录。"
+        }
+      ],
+      "template": "本场叙事目标：\n已确认剧本 / 角色 / 资产：\n分镜、调度与声音：\n镜头起终状态：\n模型能力与提示词：\n成片验收与交接清单：",
+      "source": "daoyan/SKILL.md",
+      "kind": "library",
+      "download": "content/library/daoyan.md",
+      "number": 10
     },
     {
       "id": "video-harness",
@@ -1026,7 +1290,7 @@
       "template": "scene + state + event\n  → interpret / clarify\n  → plan\n  → schema validation\n  → submit + collect\n  → review actual output\n  → accept actual end state",
       "source": "vicky-drama/scripts/video-harness.mjs",
       "kind": "library",
-      "number": 3,
+      "number": 11,
       "download": "content/library/video-harness.md"
     },
     {
@@ -1058,7 +1322,7 @@
       "template": "{\n  \"event_id\": \"event-001\",\n  \"state_revision\": 0,\n  \"decision\": \"route\",\n  \"action_id\": \"stay_and_listen\",\n  \"evidence\": \"你可以留下\",\n  \"reason\": \"拒绝触碰，但允许陪伴\",\n  \"question\": null\n}",
       "source": "vicky-drama/references/video-agent-system-prompt.md",
       "kind": "library",
-      "number": 4,
+      "number": 12,
       "download": "content/library/response-agent.md"
     },
     {
@@ -1090,7 +1354,7 @@
       "template": "References: identity / wardrobe / location / actual start state.\nStart: positions, gaze, hands, props and current activity.\nTrigger: the exact user-selected meaning.\nPerformance: visible reception, response, action and aftermath.\nSpeech: exact dialogue, speaker, delivery and pauses.\nCamera: position/path, target, focus, start and endpoint.\nEnd: hands, distance, objects and continuing activity.\nProtect: this shot’s specific continuity constraints.",
       "source": "vicky-drama/references/video-prompt-method.md",
       "kind": "library",
-      "number": 5,
+      "number": 13,
       "download": "content/library/video-pe.md"
     },
     {
@@ -1122,7 +1386,7 @@
       "template": "检查项：\n版本 / 对象：\n预期可观察结果：\n实际结果：\n状态：通过 / 未通过 / 未验证 / 不适用\n证据：\n影响与后续处理：",
       "source": "vicky-drama/references/creation-delivery-checklist.md",
       "kind": "library",
-      "number": 6,
+      "number": 14,
       "download": "content/library/creative-qa.md"
     },
     {
@@ -1154,7 +1418,7 @@
       "previewUrl": "https://lyx1265897416-lab.github.io/realtime-drama-test-log/",
       "previewNote": "打开原评测网页，查看完整视频与测试记录；内容随原站更新。",
       "kind": "library",
-      "number": 7
+      "number": 15
     }
   ],
   "profile": {
