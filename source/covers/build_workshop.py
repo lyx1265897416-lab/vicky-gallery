@@ -25,7 +25,7 @@ def asset(id):
  if p.suffix=='.svg':return re.findall(r'(?:href|xlink:href)="([^"]+)"',p.read_text())[0]
  return 'data:image/jpeg;base64,'+base64.b64encode(p.read_bytes()).decode()
 def photo(id,x,y,w,h):
- uri=asset(id);clip='clip'+str(len(parts));parts.append(f'<defs><clipPath id="{clip}"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="15"/></clipPath></defs><image href="{uri}" x="{x}" y="{y}" width="{w}" height="{h}" preserveAspectRatio="xMidYMin slice" clip-path="url(#{clip})"/>')
+ uri=asset(id);clip='clip'+str(len(parts));parts.append(f'<defs><clipPath id="{clip}"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="15"/></clipPath></defs><image href="{uri}" x="{x}" y="{y}" width="{w}" height="{h}" preserveAspectRatio="xMidYMid meet" clip-path="url(#{clip})"/>')
 def box(x,y,w,h,title,sub='',fill='#ffffff'):
  rect(x,y,w,h,fill,15,'#d1d9d0');text(x+22,y+33,title,22,INK,weight='500');
  if sub:text(x+22,y+61,sub,15,MUT)
@@ -98,9 +98,10 @@ for i,(id,title,sub,bg) in enumerate(S):
   arrow(400,885,400,926);tag(205,943,'NEXT TURN / INHERITED STATE',w=390)
   end(id,'CHAIN / input → plan → parallel clips → review → continuation')
  elif i==4:
-  photo('meet-again',48,265,704,403);tag(65,616,'PROJECT REFERENCE / MEET ME, AGAIN',w=480)
+  photo('meet-again',48,265,278,494)
+  text(48,791,'MEET ME, AGAIN / REFERENCE',12,MUT,spacing=1)
   for j,(a,b) in enumerate([('Identity','Who am I?'),('Situation','Where am I?'),('Action','What can I do?')]):
-   box(48+j*238,700,220,102,a,b)
+   box(356,286+j*157,396,127,a,b)
   box(48,826,704,101,'Why do I care? Why now?','The opening must supply a reason to participate.','#e2dfc8')
   arrow(400,927,400,968);text(400,1018,'Hand the first action to the viewer.',25,anchor='middle',family='Georgia')
   end(id,'CHECK / identity · situation · action · motivation · timing')
@@ -118,11 +119,12 @@ for i,(id,title,sub,bg) in enumerate(S):
   text(48,967,'Test identity in motion.',35,family='Georgia');text(48,1005,'Profile · expression · speech · ordinary indoor light',19,MUT)
   end(id,'DELIVERABLE / identity master + look rules + continuity checks')
  elif i==7:
-  photo('meet-again',48,267,704,452)
-  rect(63,624,393,75,'#fffaf0',10);text(84,654,'Intention is visible in behavior.',20);text(84,684,'Gaze · hands · pause · distance',18,MUT)
+  photo('meet-again',48,267,278,494)
+  for j,(a,b) in enumerate([('Gaze','Who receives the stimulus?'),('Hands + props','What is the character doing?'),('Pause + distance','How does intention become visible?')]):
+   box(356,286+j*157,396,127,a,b)
   for j,(a,b) in enumerate([('Receive','Notice the stimulus'),('Respond','A small readable change'),('Act','Pursue the objective')]):
-   box(48+j*238,758,220,105,a,'','#fffaf0');text(67+j*238,831,b,14,MUT)
-  box(48,901,704,106,'Preserve the actual end state','Eyeline, props, body position, light and sound carry forward.','#dfd7cd')
+   box(48+j*238,792,220,85,a,'','#fffaf0');text(67+j*238,855,b,14,MUT)
+  box(48,915,704,106,'Preserve the actual end state','Eyeline, props, body position, light and sound carry forward.','#dfd7cd')
   end(id,'METHOD / stimulus → reception → response → action → aftermath')
  elif i==8:
   box(48,273,330,148,'World','Rules + boundaries','#f9f5e9');text(70,379,'What does a choice cost?',18,MUT)
@@ -133,15 +135,13 @@ for i,(id,title,sub,bg) in enumerate(S):
   arrow(400,795,400,833);box(48,848,704,143,'Episodes → dialogue → revision','Pay off the hook. Preserve established facts.','#dedfcf');text(70,960,'Handoff: decisions, open questions, next draft',18,MUT)
   end(id,'OUTPUT / a causal story and a traceable creative handoff')
  elif i==9:
-  photo('sunset-island',48,267,704,352)
-  # Framing overlays describe craft without pretending to be new generated shots.
-  for x,y,sx,sy in [(75,294,1,1),(725,294,-1,1),(75,592,1,-1),(725,592,-1,-1)]:
-   line(x,y,x+sx*38,y,'#f5f4e7',3);line(x,y,x,y+sy*38,'#f5f4e7',3)
-  rect(65,554,263,45,'#f9f6ea',5);text(84,584,'SHOT / NARRATIVE PURPOSE',13,spacing=1)
-  for j,(a,b) in enumerate([('Frame','What we reveal'),('Blocking','Where bodies move'),('Sound','Who we hear')]):box(48+j*238,656,220,94,a,b)
-  rect(48,786,704,226,'#f9f8ef',16)
-  dot(133,880,'A');dot(475,880,'B');line(157,880,450,880,ACC,2,'7 6');text(304,850,'EYELINE',13,ACC,anchor='middle',spacing=2)
-  parts.append('<path d="M260 976 L300 936 L340 976 Z" fill="#668479"/>');line(300,938,301,893,ACC,2);text(371,970,'Camera + focus + movement',19)
+  photo('sunset-island',48,267,278,494)
+  # Portrait material keeps face, gaze and the card-holding action in frame.
+  for j,(a,b) in enumerate([('Frame','Face, gaze and story information'),('Blocking','Hands, props and spatial relations'),('Sound','Dialogue, speaker and ambience')]):
+   box(356,286+j*157,396,127,a,b)
+  rect(48,796,704,226,'#f9f8ef',16)
+  dot(133,890,'A');dot(475,890,'B');line(157,890,450,890,ACC,2,'7 6');text(304,860,'EYELINE',13,ACC,anchor='middle',spacing=2)
+  parts.append('<path d="M260 986 L300 946 L340 986 Z" fill="#668479"/>');line(300,948,301,903,ACC,2);text(371,980,'Camera + focus + movement',19)
   end(id,'HANDOFF / script → shot plan → assets → model-specific prompt')
  elif i==10:
   for j,(a,b) in enumerate([('01  Interpret','Event + current scene state'),('02  Plan','A proposal, not an accepted result'),('03  Validate','Schema + allowed actions + revision'),('04  Submit / Collect','One execution, recorded evidence'),('05  Review actual output','Inspect what really happened'),('06  Accept end state','Only accepted output moves the story')]):
@@ -159,9 +159,12 @@ for i,(id,title,sub,bg) in enumerate(S):
   for j,t in enumerate(['decision: route','action_id: stay_and_listen','evidence: "You can stay."','state_revision: 0']):text(76,797+j*46,t,21,'#f3f4df','Menlo')
   end(id,'INTERPRETATION / negation · permission · conditions · clarification')
  elif i==12:
-  photo('sunset-island',48,267,704,302);tag(69,511,'REFERENCE / ACTUAL START STATE',w=440)
+  photo('sunset-island',48,267,278,494)
   for j,(a,b) in enumerate([('References','Identity / wardrobe / place'),('Performance','Receive → respond → act'),('Camera + sound','Path / focus / dialogue / pauses'),('End + protect','Hands / props / distance / continuity')]):
-   y=602+j*100;rect(48,y,704,85,'#faf9f2',10);text(69,y+32,a,22);text(69,y+63,b,18,MUT)
+   y=267+j*128;rect(356,y,396,110,'#faf9f2',10);text(378,y+34,a,22);text(378,y+77,b,16,MUT)
+  text(48,804,'REFERENCE / FACE, GAZE, HANDS AND PROP',13,MUT,spacing=1)
+  box(48,850,704,157,'Start → visible action → reviewed end','Describe the actual state. Preserve the continuity.','#faf9f2')
+  text(70,975,'A shot instruction must be observable.',23,family='Georgia')
   end(id,'OUTPUT / specific, executable and checkable shot instructions')
  elif i==13:
   for j,(a,b,c,d) in enumerate([('Build','Can it produce an artifact?','STRUCTURE','#f8f6eb'),('Dynamic review','Do performance and cuts work?','PICTURE + SOUND','#e4e9dd'),('Full experience','Do choices lead to outcomes?','INTERACTION','#e8dcd7'),('Real device','Does it work on target hardware?','DEVICE','#dde5e8')]):
